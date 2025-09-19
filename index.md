@@ -3,7 +3,7 @@ layout: default
 title: "Prova Saul"
 ---
 
-Este repositorio contiene el material del curso de Machine Learning desarrollado por Mireia Consarnau.
+Este repositori conte el material del curs de Sistemes Operatius fet per Saul Subirats.
 
 - Índice y enlaces a las unidades del curso.
 - Recursos en formato PDF, vídeos, y Google Colab.
@@ -11,7 +11,7 @@ Este repositorio contiene el material del curso de Machine Learning desarrollado
 
 ## Licencia
 
-El contenido está bajo licencia [Creative Commons BY-NC-SA 3.0 ES](LICENSE.md).
+El contenido está bajo licencia [Creative Commons BY-NC-SA 4.0 ES](LICENSE.md).
 
 ## Contenido del curso
 
