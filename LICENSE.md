@@ -1,6 +1,6 @@
-# Licencia Creative Commons Reconocimiento - No Comercial - Compartir Igual 3.0 España (CC BY-NC-SA 3.0)
+# Licencia Creative Commons Reconocimiento - No Comercial - Compartir Igual 4.0 España (CC BY-NC-SA 4.0)
 
-Este trabajo está licenciado bajo la [Licencia Creative Commons Reconocimiento - No Comercial - Compartir Igual 3.0 España (CC BY-NC-SA 3.0)](https://creativecommons.org/licenses/by-nc-sa/3.0/es/).
+Prova Saul © 2025 by Saul Subirats is licensed under CC BY-NC-SA 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 ---
 
@@ -17,7 +17,7 @@ Esta licencia permite que otros compartan, copien y distribuyan tu trabajo, así
 ## Texto legal completo
 
 Puedes consultar el texto completo de la licencia aquí:  
-https://creativecommons.org/licenses/by-nc-sa/3.0/es/legalcode
+https://creativecommons.org/licenses/by-nc-sa/4.0
 
 ---
 
@@ -27,4 +27,4 @@ Se debe dar crédito adecuado, proporcionar un enlace a esta licencia e indicar 
 
 ---
 
-© 2025 Mireia Consarnau
+© 2025 Saul Subirats
