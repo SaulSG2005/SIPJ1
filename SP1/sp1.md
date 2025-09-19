@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Unidad 1. Fundamentos de la Inteligencia Artificial y el Aprendizaje Automático"
+title: "Sprint 1: Avaluació, Instal·lació i Configuració de Xarxes i Sistemes Operatius"
 ---
 
 ## Lección 1. ¿Qué es la IA? De la mente humana a las máquinas inteligentes
