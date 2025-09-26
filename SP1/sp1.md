@@ -20,12 +20,12 @@ Quan creéssim una màquina nova, ens sortirà la següent pantalla on li haurem
 
 ---
 
-En la següent pantalla haurem de posar-li nom a l'usuari administrador, contrasenya i hostname, i si és necessari, domain-name:
+En la següent pantalla necessitarem posar la quantitat de RAM i processadors, posarem la quantitat recomanada tal com hem buscat amb anterioritat, en el cas dels processadors no sabem quina és la recomanada, així que en posarem 4 per a estar segurs. Atenció, la màquina virtual agarra tot això de la nostra màquina física, pot variar depenent del hardware de cada persona:
 <img width="869" height="604" alt="image" src="https://github.com/user-attachments/assets/38673e87-1363-4014-b5f6-04fa2aee4dfc" />
 
 ---
 
-Per últim, necessitarem posar la quantitat de RAM, processadors i Disc Dur que tindrà la nostra màquina, atenció, agarra tot això de la nostra màquina física, pot variar depenent del hardware de cada persona:
+Per últim, necessitarem posar la quantitat de Disc Dur que tindrà la nostra màquina. Atenció, la màquina virtual agarra tot això de la nostra màquina física, pot variar depenent del hardware de cada persona:
 <img width="869" height="604" alt="image" src="https://github.com/user-attachments/assets/27fa97e7-b317-46fc-bc20-d1de6840479e" />
 
 ---
