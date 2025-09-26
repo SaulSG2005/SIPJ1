@@ -18,9 +18,8 @@ Per últim, necessitarem posar la quantitat de RAM, processadors i Disc Dur que 
 <img width="890" height="425" alt="image" src="https://github.com/user-attachments/assets/c9d2f4e6-aadd-4550-93ce-7aa27c134bb0" />
 
 ---
-
+## Particions i punts de restauració
 ## Llicenciament
 ## Instal·lacions duals i gestors d'arrancada
-## Particions i punts de restauració
 ## Configuració bàsica de la xarxa
 ## Comandes generals i instal·lació d'aplicacions
