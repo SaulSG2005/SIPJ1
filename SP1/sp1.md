@@ -17,10 +17,9 @@ En la següent pantalla haurem de posar-li nom a l'usuari administrador, contras
 Per últim, necessitarem posar la quantitat de RAM, processadors i Disc Dur que tindrà la nostra màquina, atenció, agarra tot això de la nostra màquina física, pot variar depenent del hardware de cada persona:
 <img width="890" height="425" alt="image" src="https://github.com/user-attachments/assets/c9d2f4e6-aadd-4550-93ce-7aa27c134bb0" />
 
-
+---
 
 ## Llicenciament
------
 ## Instal·lacions duals i gestors d'arrancada
 ## Particions i punts de restauració
 ## Configuració bàsica de la xarxa
