@@ -3,19 +3,29 @@ layout: default
 title: "SP1 Avaluació, Instal·lació i Configuració de Xarxes i Sistemes Operatius"
 ---
 
-## Virtualització i instal·lació del SO Ubuntu
+# Virtualització i instal·lació del SO Ubuntu
+---
+### Virtualització
+---
+###Instal·lació del SO Ubuntu
 Quan creéssem una màquina nova, ens sortirà la següent pantalla on li haurem de posar el nom a la màquina i seleccionar l'ISO que tindrem la nostra màquina:
-<img width="890" height="425" alt="image" src="https://github.com/user-attachments/assets/07be2251-d119-439e-b736-1bb8baaee078" />
+<img width="869" height="604" alt="image" src="https://github.com/user-attachments/assets/146aae09-2064-4437-8f04-abbf0f0bb5e8" />
 
 ---
 
 En la següent pantalla haurem de posar-li nom a l'usuari administrador, contrasenya i hostname, i si és necessari, domain-name:
-<img width="890" height="425" alt="image" src="https://github.com/user-attachments/assets/0cbe2cf6-5e03-49fe-9e9b-21011d1e60a2" />
+<img width="869" height="604" alt="image" src="https://github.com/user-attachments/assets/38673e87-1363-4014-b5f6-04fa2aee4dfc" />
 
 ---
 
 Per últim, necessitarem posar la quantitat de RAM, processadors i Disc Dur que tindrà la nostra màquina, atenció, agarra tot això de la nostra màquina física, pot variar depenent del hardware de cada persona:
-<img width="890" height="425" alt="image" src="https://github.com/user-attachments/assets/c9d2f4e6-aadd-4550-93ce-7aa27c134bb0" />
+<img width="869" height="604" alt="image" src="https://github.com/user-attachments/assets/27fa97e7-b317-46fc-bc20-d1de6840479e" />
+
+---
+
+<img width="1051" height="605" alt="image" src="https://github.com/user-attachments/assets/bea14d86-4a0a-4b2c-a552-ca02eca88bb2" />
+
+
 
 ---
 ## Particions i punts de restauració
