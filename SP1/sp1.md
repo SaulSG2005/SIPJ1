@@ -4,8 +4,14 @@ title: "SP1 Avaluació, Instal·lació i Configuració de Xarxes i Sistemes Oper
 ---
 
 # Virtualització i instal·lació del SO Ubuntu
----
+
 ### Virtualització
+Per a procedir en la virtualitzacio primer necesitarem saber els requeriments que necesitara la ISO que instalarem en la maquina virtual, en el nostre cas instalarem una ISO Ubuntu 22.04, els requeriments seran els seguents:
+- uns 3 GB de RAM sugerits
+- 25 GB de memoria de disc dur sugerida
+
+<img width="900" height="548" alt="image" src="https://github.com/user-attachments/assets/3f140448-be05-43e0-b433-da61de5617be" />
+
 ---
 ###Instal·lació del SO Ubuntu
 Quan creéssem una màquina nova, ens sortirà la següent pantalla on li haurem de posar el nom a la màquina i seleccionar l'ISO que tindrem la nostra màquina:
