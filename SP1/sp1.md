@@ -13,8 +13,9 @@ Per a procedir en la virtualització primer necessitarem saber els requisits que
 <img width="900" height="548" alt="image" src="https://github.com/user-attachments/assets/3f140448-be05-43e0-b433-da61de5617be" />
 
 ---
-###Instal·lació del SO Ubuntu
-Quan creéssem una màquina nova, ens sortirà la següent pantalla on li haurem de posar el nom a la màquina i seleccionar l'ISO que tindrem la nostra màquina:
+### Instal·lació del SO Ubuntu
+
+Quan creéssim una màquina nova, ens sortirà la següent pantalla on li haurem de posar el nom a la màquina i les especificacions de la màquina que instal·larem:
 <img width="869" height="604" alt="image" src="https://github.com/user-attachments/assets/146aae09-2064-4437-8f04-abbf0f0bb5e8" />
 
 ---
