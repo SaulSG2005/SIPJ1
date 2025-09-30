@@ -29,32 +29,32 @@ Per últim, necessitarem posar la quantitat de Disc Dur que tindrà la nostra m�
 <img width="869" height="604" alt="image" src="https://github.com/user-attachments/assets/27fa97e7-b317-46fc-bc20-d1de6840479e" />
 
 ---
-Un cop creada la maquina. anirem als settings i posarem manualment la ISO del Ubuntu Desktop.
+Un cop creada la màquina, anirem als settings, emmagatzematge i posarem manualment l'ISO de l'Ubuntu Desktop:
 <img width="1051" height="605" alt="image" src="https://github.com/user-attachments/assets/bea14d86-4a0a-4b2c-a552-ca02eca88bb2" />
 
 ---
-
+Per a procedir en la instal·lació, començarem per triar l'idioma:
 <img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-08-53" src="https://github.com/user-attachments/assets/243155af-1623-45fe-893c-bdb45a254b3c" />
 
 ---
-
+Després la disposició del teclat:
 <img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-09-20" src="https://github.com/user-attachments/assets/3bdf70eb-cdb4-4828-90c0-9cfe8c635067" />
 
 ---
-
+Li direm que aplique la instal·lació normal:
 <img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-09-36" src="https://github.com/user-attachments/assets/0ed6f76e-1561-4505-916d-f7579c24f3a5" />
 
 ---
-
+A partir de aquí farem la part més important, les particions manuals, li donarem a més opcions:
 <img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-09-59" src="https://github.com/user-attachments/assets/5572e2b9-758f-4c9e-ab56-63b3eb45b016" />
+
+---
+Crearem una nou espai lliure
+<img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-12-06" src="https://github.com/user-attachments/assets/76be2186-25f5-4bc7-bd41-41a78eecb0c7" />
 
 ---
 
 <img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-11-37" src="https://github.com/user-attachments/assets/91fa2f25-2237-469c-8c8d-0a0f6e42e44e" />
-
----
-
-<img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-12-06" src="https://github.com/user-attachments/assets/76be2186-25f5-4bc7-bd41-41a78eecb0c7" />
 
 ---
 
