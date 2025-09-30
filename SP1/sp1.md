@@ -73,7 +73,7 @@ Aquestes seran totes les particions:
 <img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-17-43" src="https://github.com/user-attachments/assets/a845f726-e419-4ccc-9204-9a5dc025aec4" />
 
 ---
-Un cop les tenim totes, continuarem amb la la instal·lació:
+Un cop les tenim totes, continuarem amb la instal·lació:
 <img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-25-06" src="https://github.com/user-attachments/assets/5eb166b2-95bd-492f-b874-bb156ffbae3a" />
 
 
