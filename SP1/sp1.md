@@ -32,6 +32,52 @@ Per últim, necessitarem posar la quantitat de Disc Dur que tindrà la nostra m�
 
 <img width="1051" height="605" alt="image" src="https://github.com/user-attachments/assets/bea14d86-4a0a-4b2c-a552-ca02eca88bb2" />
 
+<img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-08-53" src="https://github.com/user-attachments/assets/243155af-1623-45fe-893c-bdb45a254b3c" />
+
+---
+
+<img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-09-20" src="https://github.com/user-attachments/assets/3bdf70eb-cdb4-4828-90c0-9cfe8c635067" />
+
+---
+
+<img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-09-36" src="https://github.com/user-attachments/assets/0ed6f76e-1561-4505-916d-f7579c24f3a5" />
+
+---
+
+<img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-09-59" src="https://github.com/user-attachments/assets/5572e2b9-758f-4c9e-ab56-63b3eb45b016" />
+
+---
+
+<img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-11-37" src="https://github.com/user-attachments/assets/91fa2f25-2237-469c-8c8d-0a0f6e42e44e" />
+
+---
+
+<img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-12-06" src="https://github.com/user-attachments/assets/76be2186-25f5-4bc7-bd41-41a78eecb0c7" />
+
+---
+
+<img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-13-36" src="https://github.com/user-attachments/assets/53e67221-1c97-4421-9c1a-6320480f1b0d" />
+
+---
+
+<img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-14-37" src="https://github.com/user-attachments/assets/07e5707e-332f-46be-be75-cd65a6ad90fb" />
+
+---
+
+<img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-14-59" src="https://github.com/user-attachments/assets/278e80a6-a04a-4937-b0c0-22e98f7d8adb" />
+
+---
+
+<img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-17-11" src="https://github.com/user-attachments/assets/7da5a0a4-dd45-4192-92fa-dc28d189888a" />
+
+---
+
+<img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-17-43" src="https://github.com/user-attachments/assets/a845f726-e419-4ccc-9204-9a5dc025aec4" />
+
+---
+
+<img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-25-06" src="https://github.com/user-attachments/assets/5eb166b2-95bd-492f-b874-bb156ffbae3a" />
+
 
 
 ---
