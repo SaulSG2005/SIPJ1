@@ -49,42 +49,38 @@ A partir de aquí farem la part més important, les particions manuals, li donar
 <img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-09-59" src="https://github.com/user-attachments/assets/5572e2b9-758f-4c9e-ab56-63b3eb45b016" />
 
 ---
-Crearem una nou espai lliure
+Crearem una nou espai lliure sense assignar:
 <img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-12-06" src="https://github.com/user-attachments/assets/76be2186-25f5-4bc7-bd41-41a78eecb0c7" />
 
 ---
-
+25 GB estaran assignats para la arrel:
 <img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-11-37" src="https://github.com/user-attachments/assets/91fa2f25-2237-469c-8c8d-0a0f6e42e44e" />
 
 ---
-
+13 GB estaran assignats para el home:
 <img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-13-36" src="https://github.com/user-attachments/assets/53e67221-1c97-4421-9c1a-6320480f1b0d" />
 
 ---
-
+2 GB estaran assignats para el swap:
 <img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-14-37" src="https://github.com/user-attachments/assets/07e5707e-332f-46be-be75-cd65a6ad90fb" />
 
 ---
-
-<img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-14-59" src="https://github.com/user-attachments/assets/278e80a6-a04a-4937-b0c0-22e98f7d8adb" />
-
----
-
+1 GB estara assignat para el EFI:
 <img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-17-11" src="https://github.com/user-attachments/assets/7da5a0a4-dd45-4192-92fa-dc28d189888a" />
 
 ---
-
+Aquestes seran totes les particions:
 <img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-17-43" src="https://github.com/user-attachments/assets/a845f726-e419-4ccc-9204-9a5dc025aec4" />
 
 ---
-
+Un cop les tenim totes, continuarem amb la la instal·lació:
 <img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-25-06" src="https://github.com/user-attachments/assets/5eb166b2-95bd-492f-b874-bb156ffbae3a" />
 
 
 
 ---
-## Particions i punts de restauració
 ## Llicenciament
+## Particions i punts de restauració
 ## Instal·lacions duals i gestors d'arrancada
 ## Configuració bàsica de la xarxa
 ## Comandes generals i instal·lació d'aplicacions
