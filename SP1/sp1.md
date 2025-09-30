@@ -29,8 +29,10 @@ Per últim, necessitarem posar la quantitat de Disc Dur que tindrà la nostra m�
 <img width="869" height="604" alt="image" src="https://github.com/user-attachments/assets/27fa97e7-b317-46fc-bc20-d1de6840479e" />
 
 ---
-
+Un cop creada la maquina. anirem als settings i posarem manualment la ISO del Ubuntu Desktop.
 <img width="1051" height="605" alt="image" src="https://github.com/user-attachments/assets/bea14d86-4a0a-4b2c-a552-ca02eca88bb2" />
+
+---
 
 <img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-08-53" src="https://github.com/user-attachments/assets/243155af-1623-45fe-893c-bdb45a254b3c" />
 
