@@ -80,6 +80,9 @@ Un cop les tenim totes, continuarem amb la instal·lació:
 
 ---
 ## Llicenciament
+Anirem al seguent directori per la terminal i farem un ls:
+<img width="861" height="272" alt="image" src="https://github.com/user-attachments/assets/0b13d093-6e86-48db-bfe2-92d280d221f6" />
+
 ## Particions i punts de restauració
 ## Instal·lacions duals i gestors d'arrancada
 ## Configuració bàsica de la xarxa
