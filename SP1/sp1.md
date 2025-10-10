@@ -83,7 +83,6 @@ Un cop les tenim totes, continuarem amb la instal·lació:
 Anirem al seguent directori per la terminal i farem un ls:
 <img width="861" height="272" alt="image" src="https://github.com/user-attachments/assets/0b13d093-6e86-48db-bfe2-92d280d221f6" />
 
-## Particions i punts de restauració
 ## Instal·lacions duals i gestors d'arrancada
 a
 <img width="1070" height="701" alt="image" src="https://github.com/user-attachments/assets/38004a0d-12fb-43dc-8e4c-ebcf17d180d6" />
@@ -158,6 +157,68 @@ a
 a
 <img width="1020" height="841" alt="image" src="https://github.com/user-attachments/assets/d0635b20-3bb3-4338-ac23-b5cb397d6ef7" />
 
+## Particions i punts de restauració
+a
+<img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/2ec56a0b-7ac6-4a0c-a290-5bc9133faabb" />
+
+---
+a
+<img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/369176b0-10d2-49b6-ba9a-9fd4268b839b" />
+
+---
+
+<img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/97d54fad-73b0-4e3f-bc54-aca4a7ed5f0f" />
+
+---
+
+<img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/41dbb6f6-cfc2-4ef7-9d4c-d5485a6c59d8" />
+
+---
+
+<img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/bc26a656-1e8c-45fb-ac3c-3f1c8df47824" />
+
+---
+
+<img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/b83bc87e-5f80-4b39-8f16-0f171545ebbd" />
+
+---
+
+<img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/ff8597ef-d8ea-4217-9aff-8a150da04995" />
+
+---
+
+<img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/d5bb1d5b-4345-4245-a1cf-85e7ecdf792e" />
+
+---
+
+<img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/2671d84d-55af-4771-8e1a-db10a153c1c8" />
+
+---
+
+<img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/fbdff803-0c4b-4370-9fd4-4e9f55c6b75a" />
+
+---
+
+<img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/daead9a4-77ae-45b6-b905-6594f74c2432" />
+
+---
+
+<img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/87071fe0-e023-4555-9ff0-7c2570513896" />
+
+---
+
+<img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/ce57f801-831e-4ef2-addd-ad579828a3e4" />
+
+---
+
+
 
 ## Configuració bàsica de la xarxa
+a
+<img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/73054810-0084-4499-aaca-f051698c9445" />
+
+---
+
+
+
 ## Comandes generals i instal·lació d'aplicacions
