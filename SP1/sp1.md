@@ -1,4 +1,4 @@
----
+github---
 layout: default
 title: "SP1 Avaluació, Instal·lació i Configuració de Xarxes i Sistemes Operatius"
 ---
@@ -219,6 +219,60 @@ a
 
 ---
 
+<img width="1682" height="765" alt="image" src="https://github.com/user-attachments/assets/ff747b8a-e0b5-4419-a4ab-b50de41a0d70" />
 
+---
+
+<img width="1682" height="765" alt="image" src="https://github.com/user-attachments/assets/99046524-2a51-40a9-aabc-b0daae49a481" />
+
+---
+
+<img width="1682" height="765" alt="image" src="https://github.com/user-attachments/assets/b24389eb-844d-4788-b10f-e61c5030f66d" />
+
+---
+
+<img width="1682" height="765" alt="image" src="https://github.com/user-attachments/assets/0f32325a-35cb-446d-bcae-ff976adb3ff7" />
+
+---
+
+<img width="729" height="481" alt="image" src="https://github.com/user-attachments/assets/4c1236cd-7282-47a0-89b2-e6c79a21d72b" />
+
+---
+
+<img width="796" height="575" alt="image" src="https://github.com/user-attachments/assets/c261f4bc-bcf1-43fa-a4fc-7d3a879e0f44" />
+
+---
+
+<img width="796" height="575" alt="image" src="https://github.com/user-attachments/assets/ea76acc4-a230-43b4-8545-e42c0aebb086" />
+
+---
+
+<img width="796" height="575" alt="image" src="https://github.com/user-attachments/assets/9a213b9c-c799-4013-a395-20af17120c03" />
+
+---
+
+<img width="796" height="575" alt="image" src="https://github.com/user-attachments/assets/8dc9e809-50c7-42ea-af93-a72819415da3" />
+
+---
+
+<img width="796" height="575" alt="image" src="https://github.com/user-attachments/assets/6282b1dd-f1fd-453e-874f-74e323106503" />
+
+---
+
+<img width="796" height="575" alt="image" src="https://github.com/user-attachments/assets/3023f4cc-f18b-4aee-a73e-e60057cab161" />
 
 ## Comandes generals i instal·lació d'aplicacions
+
+<img width="796" height="575" alt="image" src="https://github.com/user-attachments/assets/4f43415f-41bc-4b8c-b336-246aa45452cc" />
+
+---
+
+<img width="772" height="278" alt="image" src="https://github.com/user-attachments/assets/6d225cf2-57c3-42c1-9cd9-4312565951a5" />
+
+---
+
+<img width="830" height="527" alt="image" src="https://github.com/user-attachments/assets/60d7ff6c-cb56-4fe6-8bad-d47c7cf35fa7" />
+
+---
+
+
