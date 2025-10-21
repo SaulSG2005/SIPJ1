@@ -263,6 +263,33 @@ a
 
 ## Comandes generals i instal·lació d'aplicacions
 
+###Pinning Packet
+
+Primerament comprovarem les versions de un programa amb la comanda "apt-cache policy nom_paquet", en el nostre cas utilitzarem el Audacity
+
+<img width="788" height="295" alt="image" src="https://github.com/user-attachments/assets/8411f6ae-69d9-475a-bb0c-3645bac1ef08" />
+
+
+---
+Despres anirem a la carpeta /etc/apt/preferences.d/ i aqui crearem un fitxer on dintre posarem el numero de preferencia de la versio del Audacity que volem instal·lar:
+
+<img width="728" height="235" alt="image" src="https://github.com/user-attachments/assets/1a690a0d-2b9f-4c94-81d1-a5f8974e9fa6" />
+
+---
+Ara dintre del fitxer posarem la seguent informacio per a modificar la preferencia:
+
+<img width="788" height="295" alt="image" src="https://github.com/user-attachments/assets/2b2324a0-232f-408e-8a93-f1dce3845da8" />
+
+---
+
+Farem un apt update per a actualitzar els paquets i per comprovar si s'ha fet correctament tornarem a repetir la primera comanda:
+
+<img width="788" height="295" alt="image" src="https://github.com/user-attachments/assets/966b1f4f-7864-4e75-9a68-65b19959ceff" />
+
+###Instal·lacio amb apt
+
+###Instal·lacio amb dpkg
+
 <img width="796" height="575" alt="image" src="https://github.com/user-attachments/assets/4f43415f-41bc-4b8c-b336-246aa45452cc" />
 
 ---
@@ -274,5 +301,10 @@ a
 <img width="830" height="527" alt="image" src="https://github.com/user-attachments/assets/60d7ff6c-cb56-4fe6-8bad-d47c7cf35fa7" />
 
 ---
+
+###Instal·lacio amb aptitude
+
+###Instal·lacio amb repositoris
+
 
 
