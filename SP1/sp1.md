@@ -99,77 +99,87 @@ A més de la GPL, Ubuntu també utilitza altres llicències per a diferents comp
 - Apache License: Permet la modificació i redistribució amb certes condicions.
 
 ## Instal·lacions duals i gestors d'arrancada
-a
+Per a preparar la instalacio del dual boot, primerament necesitarem anar a la configuracio de la maquina i activar la opcio UEFI:
+
 <img width="1070" height="701" alt="image" src="https://github.com/user-attachments/assets/38004a0d-12fb-43dc-8e4c-ebcf17d180d6" />
 
 ---
 
-a
+Despres en emmagatzematge li posarem la ISO del windows 10 enterprise:
+
 <img width="1070" height="701" alt="image" src="https://github.com/user-attachments/assets/3c6beae5-015b-4377-b3f9-f5b7e212e3a8" />
 
 ---
 
-a
+Un cop iniciada la maquina ens mostrara la pantalla de instal·lació del windows, continuarem amb la configuracio de la instal·lació fins a arrivar a la seguent pantalla on tindrem que seleccionar la opcio Personalizada:
+
 <img width="1070" height="701" alt="image" src="https://github.com/user-attachments/assets/1592db24-ff7b-4b51-ab03-73593e4b0978" />
 
 ---
 
-a
+Crearem un nou disc de espain on li direm que instale el windows alli:
+
 <img width="1029" height="765" alt="image" src="https://github.com/user-attachments/assets/3e260f4d-9bfd-4376-bd4c-68cf57bfb124" />
 
 ---
 
-a
+Anirem a les opcions hi comprovarem que s'ha instal·lat de forma correcta hi estan els dos sistemes operatius dintre de la maquina:
+
 <img width="933" height="394" alt="image" src="https://github.com/user-attachments/assets/56c3f568-8efe-4fbf-9655-0a2e8c2a0d3c" />
 
 ---
 
-a
+Ara posarem el grub com a disc optic ja que al instal·lar el windows se ens carrega el grub del ubuntu i l'hem de reinstal·lar manualment:
+
 <img width="1065" height="478" alt="image" src="https://github.com/user-attachments/assets/e00e8601-51b2-4001-9862-6267d72cc7e3" />
 
 ---
 
-a
+Anirem a la BIOS i li direm que arranque el Grub desde alli:
+
 <img width="1065" height="478" alt="image" src="https://github.com/user-attachments/assets/9a804ad4-6a00-4d46-8356-1bfd48cc8bc5" />
 
 ---
 
-a
+Dintre de la interficie del Grub seleccionarem les seguents opcions:
 <img width="642" height="621" alt="image" src="https://github.com/user-attachments/assets/fb5af60b-8396-4be9-afd7-d3746377e3af" />
 
----
-
-a
 <img width="642" height="621" alt="image" src="https://github.com/user-attachments/assets/0446bd50-d32f-4167-8c8d-59baf7df2e93" />
 
 ---
 
-a
+Un cop ho tindrem, haurem de entrar al Ubuntu tambe desde la BIOS i dintre del Ubuntu anirem a la terminal on haurem de posar la seguent comanda per reinstal·lar el Grub
+
 <img width="878" height="611" alt="image" src="https://github.com/user-attachments/assets/7bf36ed8-d728-4a16-8fb7-398825b7e8bb" />
 
 ---
 
-a
+Un cop reinstal·lat, anirem i editarem el fitxer /etc/default/grub i posar la linea GRUB_DISABLE_OS_PROBER = false:
+
 <img width="878" height="611" alt="image" src="https://github.com/user-attachments/assets/16f509b3-cb43-404c-8f8f-4250aaebc3fd" />
 
 ---
 
-a
+Un cop modificat el fitxer, el tindrem que actualitzar amb la comanda update-grub2:
+
 <img width="878" height="611" alt="image" src="https://github.com/user-attachments/assets/2a559cec-2b02-4f3f-9075-697af7228a1a" />
 
 ---
 
-a
+Per ultim tindrem que modificar el ordre de arrancada del sistema i dir-li que el grub estigue el primer:
+
 <img width="878" height="611" alt="image" src="https://github.com/user-attachments/assets/c6613904-1f07-421f-9bf4-abe90177485b" />
 
 ---
 
-a
+Per a canviar el ordre es la comanda efibootegr -o 000#(aqui anira el numero que pertany el Grub, despres tindrem que posar la resta):
+
 <img width="878" height="611" alt="image" src="https://github.com/user-attachments/assets/140325d3-7394-4aa8-adfe-bb5fe3e27d13" />
 
 ---
 
-a
+Apagarem la maquina i la tornarem a iniciar per a comprovar que arranca de forma correcta:
+
 <img width="1020" height="841" alt="image" src="https://github.com/user-attachments/assets/d0635b20-3bb3-4338-ac23-b5cb397d6ef7" />
 
 ## Particions i punts de restauració
