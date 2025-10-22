@@ -76,12 +76,27 @@ Aquestes seran totes les particions:
 Un cop les tenim totes, continuarem amb la instal·lació:
 <img width="1279" height="772" alt="Captura de pantalla de 2025-09-26 13-25-06" src="https://github.com/user-attachments/assets/5eb166b2-95bd-492f-b874-bb156ffbae3a" />
 
-
-
 ---
 ## Llicenciament
-Anirem al seguent directori per la terminal i farem un ls:
+Anirem al seguent directori per la terminal i farem un ls, llavors podrem trobar totes aquestes llicencies-:
 <img width="861" height="272" alt="image" src="https://github.com/user-attachments/assets/0b13d093-6e86-48db-bfe2-92d280d221f6" />
+
+La llicència específica d'Ubuntu és la GNU General Public License (GPL), que és una de les llicències més reconegudes en el món del programari de codi obert. Aquesta llicència permet als usuaris:
+
+- Modificar el programari.
+
+- Redistribuir còpies del programari original i les seves modificacions.
+
+- Utilitzar el programari de manera lliure, sempre que es respectin les condicions establertes.
+
+
+A més de la GPL, Ubuntu també utilitza altres llicències per a diferents components del sistema operatiu, com ara:
+
+- GNU Lesser General Public License (LGPL): Permet l'ús de biblioteques no lliures amb programari GPL.
+
+- MIT License: Una llicència permissiva que permet una gran llibertat d'ús.
+
+- Apache License: Permet la modificació i redistribució amb certes condicions.
 
 ## Instal·lacions duals i gestors d'arrancada
 a
