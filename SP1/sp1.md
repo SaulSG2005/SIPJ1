@@ -336,8 +336,8 @@ Primerament comprovarem les versions de un programa amb la comanda "apt-cache po
 
 <img width="788" height="295" alt="image" src="https://github.com/user-attachments/assets/8411f6ae-69d9-475a-bb0c-3645bac1ef08" />
 
-
 ---
+
 Despres anirem a la carpeta /etc/apt/preferences.d/ i aqui crearem un fitxer on dintre posarem el numero de preferencia de la versio del Audacity que volem instal·lar:
 
 <img width="728" height="235" alt="image" src="https://github.com/user-attachments/assets/1a690a0d-2b9f-4c94-81d1-a5f8974e9fa6" />
@@ -355,21 +355,36 @@ Farem un apt update per a actualitzar els paquets i per comprovar si s'ha fet co
 
 ###Instal·lacio amb apt
 
+Per a instalar amb apt es molt simple, entrarem en sudo su, despres apt install nomPrograma:
+
+<img width="877" height="439" alt="image" src="https://github.com/user-attachments/assets/e0e68c0b-0245-49d9-bcf9-9245e21c0dd9" />
+
 ###Instal·lacio amb dpkg
 
-<img width="796" height="575" alt="image" src="https://github.com/user-attachments/assets/4f43415f-41bc-4b8c-b336-246aa45452cc" />
-
----
-
-<img width="772" height="278" alt="image" src="https://github.com/user-attachments/assets/6d225cf2-57c3-42c1-9cd9-4312565951a5" />
-
----
+Primerament ens baixarem un dpkg, llavors posarem la comandda dpkg -i nomPaquet.deb per a descomprimir i instalar el programa:
 
 <img width="830" height="527" alt="image" src="https://github.com/user-attachments/assets/60d7ff6c-cb56-4fe6-8bad-d47c7cf35fa7" />
 
 ---
 
 ###Instal·lacio amb aptitude
+
+Primerament instalarem el aptitude:
+
+<img width="850" height="204" alt="image" src="https://github.com/user-attachments/assets/ece4c5a8-917d-45f7-a86a-c79c07ebdab1" />
+
+---
+
+Buscarem una llista de paquets amb la seguent comanda relacionats amb vlc:
+
+<img width="1105" height="385" alt="image" src="https://github.com/user-attachments/assets/6f584178-81b0-4d1c-b6a3-b4b5ad24fa3f" />
+
+---
+
+Per ultim instalem el vlc:
+
+<img width="1196" height="429" alt="image" src="https://github.com/user-attachments/assets/14f27830-ced5-4a24-b803-8a26f9893811" />
+
 
 ###Instal·lacio amb repositoris
 
