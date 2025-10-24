@@ -262,51 +262,69 @@ I dintre dels fitxers root excluirem cualsevol cosa menys Documents:
 
 ## Configuració bàsica de la xarxa
 
-
+Anirem a la configuracio de la maquina y posarem a les opcions de la xarxa Adaptador pont:
 
 <img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/73054810-0084-4499-aaca-f051698c9445" />
 
 ---
 
+Iniciarem la maquina i a la terminal posarem ip a per a comprovar la nostra IP i en la interficie grafica abirem a red i a les opcions posarem IPv4:
+
 <img width="1682" height="765" alt="image" src="https://github.com/user-attachments/assets/ff747b8a-e0b5-4419-a4ab-b50de41a0d70" />
 
 ---
+
+Canviarem a manual i posarem la IP que ens a donat antes la terminal, despres a la mascara de red posarem 255.255.255.0 per a marcar que es /24, i per ultim a la porta de enllaç posarem la 192.168.0.1 que es la IP del router per defecte, tambe podem posar al DNS la 8.8.8.8:
 
 <img width="1682" height="765" alt="image" src="https://github.com/user-attachments/assets/99046524-2a51-40a9-aabc-b0daae49a481" />
 
 ---
 
+Un cop guardada la configuracio en la interficie grafica podem fer un ip a per a fer una comprovacio:
+
 <img width="1682" height="765" alt="image" src="https://github.com/user-attachments/assets/b24389eb-844d-4788-b10f-e61c5030f66d" />
 
 ---
 
-<img width="1682" height="765" alt="image" src="https://github.com/user-attachments/assets/0f32325a-35cb-446d-bcae-ff976adb3ff7" />
+Despres fem un ping a google, a la IP 8.8.8.8 i tambe a la IP de la profesora o un company:
 
----
+<img width="1682" height="765" alt="image" src="https://github.com/user-attachments/assets/0f32325a-35cb-446d-bcae-ff976adb3ff7" />
 
 <img width="729" height="481" alt="image" src="https://github.com/user-attachments/assets/4c1236cd-7282-47a0-89b2-e6c79a21d72b" />
 
 ---
 
+Ho tornem a deixar en automatic ja que ara ho canviarem amb la terminal:
+
 <img width="796" height="575" alt="image" src="https://github.com/user-attachments/assets/c261f4bc-bcf1-43fa-a4fc-7d3a879e0f44" />
 
 ---
+
+Anirem al fitxer /etc/netplan/01-network-manager-all.yaml:
 
 <img width="796" height="575" alt="image" src="https://github.com/user-attachments/assets/ea76acc4-a230-43b4-8545-e42c0aebb086" />
 
 ---
 
+Dintre ficarem les seguents linies de configuracio de fitxer, fara lo mateix que em fet anteriorment amb la interficie grafica:
+
 <img width="796" height="575" alt="image" src="https://github.com/user-attachments/assets/9a213b9c-c799-4013-a395-20af17120c03" />
 
 ---
+
+Despres un netplan apply per a aplicar la configuracio:
 
 <img width="796" height="575" alt="image" src="https://github.com/user-attachments/assets/8dc9e809-50c7-42ea-af93-a72819415da3" />
 
 ---
 
+Farem un ip a per a comprovar que els canvis s'han aplicat:
+
 <img width="796" height="575" alt="image" src="https://github.com/user-attachments/assets/6282b1dd-f1fd-453e-874f-74e323106503" />
 
 ---
+
+I per acabar farem les mateixes comprovacions que antes:
 
 <img width="796" height="575" alt="image" src="https://github.com/user-attachments/assets/3023f4cc-f18b-4aee-a73e-e60057cab161" />
 
