@@ -385,7 +385,6 @@ Per ultim instalem el vlc:
 
 <img width="1196" height="429" alt="image" src="https://github.com/user-attachments/assets/14f27830-ced5-4a24-b803-8a26f9893811" />
 
-
 ###Instal·lacio amb repositoris
 
 
