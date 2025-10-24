@@ -183,54 +183,76 @@ Apagarem la maquina i la tornarem a iniciar per a comprovar que arranca de forma
 <img width="1020" height="841" alt="image" src="https://github.com/user-attachments/assets/d0635b20-3bb3-4338-ac23-b5cb397d6ef7" />
 
 ## Particions i punts de restauració
-a
+
+###Particions
+
+Per a fer les proves de les particions i punts de restauracio, anirem a la configuracio de la maquina i afeguirem un disc dur nou:
+
 <img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/2ec56a0b-7ac6-4a0c-a290-5bc9133faabb" />
 
 ---
-a
+Despres utilitzarem la comanda fdisk en la direccio de /dev/sdb/ ja que es el disc dur que hem creat antes per a fer les proves de particio i punts de restauracio:
+
 <img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/369176b0-10d2-49b6-ba9a-9fd4268b839b" />
 
 ---
+Un cop iniciem fdisk, li direm que cree una particio primaria de 25 GB de tamany:
 
 <img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/97d54fad-73b0-4e3f-bc54-aca4a7ed5f0f" />
 
 ---
+Comprovem que estigue ven creada:
 
 <img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/41dbb6f6-cfc2-4ef7-9d4c-d5485a6c59d8" />
 
 ---
+A continuacio utilitzarem la comanda mkfs.ext4 /dev/sdb1 per a dirli que transforme el la particio que hem creat en format ext4:
 
 <img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/bc26a656-1e8c-45fb-ac3c-3f1c8df47824" />
 
 ---
 
-<img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/b83bc87e-5f80-4b39-8f16-0f171545ebbd" />
+###Punts de restauració
 
----
+Per a fer punts de restauracio utilitzarem una eina que es diu timeshift, la instalem per terminal:
+
+<img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/b83bc87e-5f80-4b39-8f16-0f171545ebbd" />
 
 <img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/ff8597ef-d8ea-4217-9aff-8a150da04995" />
 
 ---
 
+Per a fer la prova crearem en Documents una carpeta i un fitxer de text:
+
 <img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/d5bb1d5b-4345-4245-a1cf-85e7ecdf792e" />
 
 ---
+
+Despres iniciarem el programa i començarem per dirli que ens faigue una instantanea RSYNC:
 
 <img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/2671d84d-55af-4771-8e1a-db10a153c1c8" />
 
 ---
 
+Despres seleccionarem la ubicacio on s'ubicara la instantanea:
+
 <img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/fbdff803-0c4b-4370-9fd4-4e9f55c6b75a" />
 
 ---
+
+I despres el nivell de la instantanea:
 
 <img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/daead9a4-77ae-45b6-b905-6594f74c2432" />
 
 ---
 
+Despres seleccionarem els fitxers que voldrem que es conserven dins de la instantanea, en lo nostre cas dels fitxers root:
+
 <img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/87071fe0-e023-4555-9ff0-7c2570513896" />
 
 ---
+
+I dintre dels fitxers root excluirem cualsevol cosa menys Documents:
 
 <img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/ce57f801-831e-4ef2-addd-ad579828a3e4" />
 
@@ -239,7 +261,9 @@ a
 
 
 ## Configuració bàsica de la xarxa
-a
+
+
+
 <img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/73054810-0084-4499-aaca-f051698c9445" />
 
 ---
