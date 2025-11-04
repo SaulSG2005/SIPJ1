@@ -88,6 +88,28 @@ Una particio es una divisio del disco a nivell logic, el volum es una capa de ap
 
 - GPARTED
 - Comandes
-# Còpies de seguretat i automatització de tasques
+
 # Gestió d'usuaris, grups, permisos
+
+<img width="1718" height="879" alt="image" src="https://github.com/user-attachments/assets/0bfc7abf-43a4-4a45-8ca8-58885e669088" />
+
+<img width="1718" height="879" alt="image" src="https://github.com/user-attachments/assets/23767c59-1e6b-40a3-8382-8d9733999212" />
+
+<img width="1718" height="879" alt="image" src="https://github.com/user-attachments/assets/e3db412e-b5d8-4b25-a1de-9cd31034277c" />
+
+<img width="1718" height="879" alt="image" src="https://github.com/user-attachments/assets/ba0e8b63-c394-4d83-b2af-35357b6d404b" />
+
+<img width="1718" height="879" alt="image" src="https://github.com/user-attachments/assets/7f1390b2-81ad-4116-b9f1-9d7ca6888daa" />
+
+<img width="531" height="208" alt="image" src="https://github.com/user-attachments/assets/3a4136f3-f20c-4046-bad1-af2e9cbe5006" />
+
+<img width="531" height="208" alt="image" src="https://github.com/user-attachments/assets/b51a16cc-4581-4433-9300-518265fce793" />
+
+<img width="559" height="243" alt="image" src="https://github.com/user-attachments/assets/a9a97ea0-6e45-4048-8639-79723ba18685" />
+
+<img width="558" height="465" alt="image" src="https://github.com/user-attachments/assets/c03abb52-8668-4754-92e4-e0504d1b0eb0" />
+
+
+
+# Còpies de seguretat i automatització de tasques
 # Gestió de procesos
