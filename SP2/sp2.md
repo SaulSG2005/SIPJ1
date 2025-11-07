@@ -8,6 +8,7 @@ title: "SP2 Gestió de la Informació del Sistema i Administració"
 Un sector es la mida minima fisica que se guarden en un disco, que son 512 bytes.
 # Mida del block
 Un sector es la mida minima logica que se guarden les dades en un OS, que son 4096 bytes. Esta mida es pot modificar quan es formatem.
+
 <img width="656" height="163" alt="image" src="https://github.com/user-attachments/assets/ce386712-9bef-41e2-b52e-3eb44443acb3" />
 
 ---
@@ -109,7 +110,35 @@ Una particio es una divisio del disco a nivell logic, el volum es una capa de ap
 
 <img width="558" height="465" alt="image" src="https://github.com/user-attachments/assets/c03abb52-8668-4754-92e4-e0504d1b0eb0" />
 
+<img width="705" height="260" alt="image" src="https://github.com/user-attachments/assets/ae2ce597-f5e9-4b72-b4a7-496dfaa1e182" />
 
+<img width="688" height="113" alt="image" src="https://github.com/user-attachments/assets/e3d69a74-9114-4c35-9ef1-5ae982773b4e" />
+
+<img width="706" height="211" alt="image" src="https://github.com/user-attachments/assets/bc5432ff-6bb5-4911-aa19-50a262dc46dc" />
+
+<img width="701" height="104" alt="image" src="https://github.com/user-attachments/assets/7b64521f-1ba6-4705-b08b-bc9546e255fc" />
+
+<img width="681" height="442" alt="image" src="https://github.com/user-attachments/assets/4aa42671-73db-4d88-a3c6-4c3c7e571347" />
+
+<img width="594" height="212" alt="image" src="https://github.com/user-attachments/assets/a1cc99b6-70e7-4ef5-ba6e-ae7e064fbaed" />
+
+<img width="594" height="212" alt="image" src="https://github.com/user-attachments/assets/7a0334c2-e491-4de3-a712-b1e6878275f6" />
+
+<img width="594" height="212" alt="image" src="https://github.com/user-attachments/assets/bb42329f-830c-4c4b-af68-dcff671134f4" />
+
+<img width="1027" height="930" alt="image" src="https://github.com/user-attachments/assets/17336996-8b42-4aa0-9d52-97c8d14510e6" />
+
+<img width="1027" height="930" alt="image" src="https://github.com/user-attachments/assets/089d650d-9407-425a-b417-9a1102bcfa20" />
+
+<img width="1027" height="930" alt="image" src="https://github.com/user-attachments/assets/b16249da-c196-4e27-935a-17b2709cc975" />
+
+<img width="1027" height="930" alt="image" src="https://github.com/user-attachments/assets/26bb30d0-9da4-41c7-aa62-47ef4be4e4a4" />
+
+<img width="1010" height="715" alt="image" src="https://github.com/user-attachments/assets/01aa355c-4893-4e00-817c-62da3564a3db" />
+
+<img width="1008" height="187" alt="image" src="https://github.com/user-attachments/assets/25082115-498b-4b6a-b5b5-4911f8d610fe" />
+
+Fer prova personal en adduser i useradd.
 
 # Còpies de seguretat i automatització de tasques
 # Gestió de procesos
