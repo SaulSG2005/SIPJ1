@@ -140,5 +140,15 @@ Una particio es una divisio del disco a nivell logic, el volum es una capa de ap
 
 Fer prova personal en adduser i useradd.
 
+<img width="860" height="589" alt="image" src="https://github.com/user-attachments/assets/6e74b99e-df70-4c55-931e-2193eef0c9c5" />
+
+<img width="860" height="589" alt="image" src="https://github.com/user-attachments/assets/fe4b03c1-39f5-40b0-99ff-fad0213bf28b" />
+
+<img width="860" height="589" alt="image" src="https://github.com/user-attachments/assets/c79375d0-ba14-4e0e-97f2-1bb9b0cc14a6" />
+
+<img width="1125" height="710" alt="image" src="https://github.com/user-attachments/assets/cd33976b-6e77-4555-8cc1-d6200e3124a8" />
+
+
+
 # Còpies de seguretat i automatització de tasques
 # Gestió de procesos
