@@ -70,33 +70,57 @@ Formateig de baixa nivell: Aquest és un procés més antic que es feia per prep
 
 Una particio es una divisio del disco a nivell logic, el volum es una capa de apstraccio que es posa per damunt de la particio.
 
+Per a fer les probes començarem per anar al emmagatzematge de la maquina virtual i crearem un nou disk de 10 Gb:
+
 <img width="1052" height="603" alt="image" src="https://github.com/user-attachments/assets/9ddb39cb-91f2-4ce4-a91d-f18831f2942a" />
 
+Dintre de la maquina, revisarem que esta creada:
+
 <img width="732" height="471" alt="image" src="https://github.com/user-attachments/assets/16cfb196-240b-43e5-a602-3f8812bbb928" />
+
+Utilitzarem la companda fdisk /dev/sdc per a crear una nova particio dintre del nou disc i crearem dos particions de 5Gb cadascuna:
 
 <img width="946" height="473" alt="image" src="https://github.com/user-attachments/assets/cf5c5cec-b99e-4785-9d32-807a52e8fbea" />
 
 <img width="941" height="267" alt="image" src="https://github.com/user-attachments/assets/33e69e9e-6cf0-48d5-8ac6-a5cb41485136" />
 
+Revisem que estiguen creades:
+
 <img width="941" height="267" alt="image" src="https://github.com/user-attachments/assets/6369edbb-1f9e-48c7-aee8-3b232515438a" />
+
+
+
+### Comandes
+
+Per a fer el formateig per terminal, utilitzarem la comanda mkfs.ext4 -b 2048 /dev/sdc1:
 
 <img width="941" height="267" alt="image" src="https://github.com/user-attachments/assets/08b4adfb-8477-48f4-ad4d-2ef82211cac7" />
 
+### GPARTED
+
+La segona particio sdc2 la fromateigarem amb la interficie grafica del programari GParted i la farem ntfs:
+
 <img width="756" height="530" alt="image" src="https://github.com/user-attachments/assets/7fa53bb3-c5a6-45de-9306-ec15b5bd3194" />
+
+Revisem que amb la comanda anterior el tamany del block de la particio sdc1 estigue creat be, mentres que en la particio sdc2 no sortira res ja que esta formateixat en ntfs:
 
 <img width="817" height="140" alt="image" src="https://github.com/user-attachments/assets/e0b440c6-7120-447a-a99e-e69baf2c3976" />
 
+Ara a la carpeta /mnt crearem una carpeta que li direm Particio1, entrarem i crearem un fitxer que es dira hola, llavors amb la comanda mount -t ext4 /dev/sdc1 /mnt/Particio1 montarem la particio del disco sdc1 de forma temporal a la carpeta de Particio1:
+
 <img width="819" height="280" alt="image" src="https://github.com/user-attachments/assets/9861318f-ca67-414c-b20d-10301a742098" />
+
+Crearem a la particio montada una carpeta que se dira prova:
 
 <img width="454" height="85" alt="image" src="https://github.com/user-attachments/assets/334e2f3a-ce41-4d31-a6fc-29e67d3825a4" />
 
+Per a comprovar que se a guardat be primer sortirem per a que la particio deixe de estar i despres farem un ls a la carpeta:
+
 <img width="471" height="88" alt="image" src="https://github.com/user-attachments/assets/3ef01d5d-819d-4cd7-8c53-2502e2c613a8" />
 
+Si volem que els canvias del mount siguen permanents, anirem al fitxer /etc/fstab i introduirem la linia de codic que es veu en la seguent captura per a dirli on volem que es monte una carpeta al directori que volem:
+
 <img width="734" height="483" alt="image" src="https://github.com/user-attachments/assets/94a83c2f-ddef-459f-9cec-691114a97815" />
-
-### GPARTED
-
-### Comandes
 
 ---
 
