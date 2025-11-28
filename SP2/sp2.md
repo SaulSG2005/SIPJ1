@@ -126,35 +126,73 @@ Si volem que els canvias del mount siguen permanents, anirem al fitxer /etc/fsta
 
 # Gestió d'usuaris, grups, permisos
 
+El fitxer /etc/passwd és un fitxer de configuració que actua com una base de dades de text pla per a la informació dels comptes d'usuari locals del sistema.
+
+La seva funció principal és emmagatzemar la informació essencial de cada usuari necessària durant l'inici de sessió i per al funcionament general del sistema.
+
 <img width="1718" height="879" alt="image" src="https://github.com/user-attachments/assets/0bfc7abf-43a4-4a45-8ca8-58885e669088" />
+
+El fitxer /etc/group serveix com a base de dades de text pla per a la informació dels grups locals al sistema Ubuntu.
+
+Mentre que /etc/passwd defineix els usuaris individuals, /etc/group defineix els grups i quins usuaris pertanyen a cadascun d'ells.
 
 <img width="1718" height="879" alt="image" src="https://github.com/user-attachments/assets/23767c59-1e6b-40a3-8382-8d9733999212" />
 
+El fitxer /etc/shadow és un fitxer de configuració de seguretat que treballa conjuntament amb /etc/passwd i /etc/group.
+
+La seva funció principal és emmagatzemar de manera segura les contrasenyes xifrades (hàshs) i la informació de caducitat dels comptes d'usuari.
+
 <img width="1718" height="879" alt="image" src="https://github.com/user-attachments/assets/e3db412e-b5d8-4b25-a1de-9cd31034277c" />
+
+El fitxer /etc/gshadow fa lo mateix que la de /etc/shadow, però aplicada als grups en lloc dels usuaris individuals: emmagatzema les contrasenyes xifrades (hàshs) per als grups locals i la informació de l'administració dels grups.
 
 <img width="1718" height="879" alt="image" src="https://github.com/user-attachments/assets/ba0e8b63-c394-4d83-b2af-35357b6d404b" />
 
+Ara farem una prova, començarem per crear un usuari en adduser:
+
 <img width="1718" height="879" alt="image" src="https://github.com/user-attachments/assets/7f1390b2-81ad-4116-b9f1-9d7ca6888daa" />
+
+Ara utilitzarem la comanda cat group, shadow, passwd | grep gina per a revisar la informacio relacionada en l'usuari gina que hem creat anteriorment:
 
 <img width="531" height="208" alt="image" src="https://github.com/user-attachments/assets/3a4136f3-f20c-4046-bad1-af2e9cbe5006" />
 
+Farem un ls, com podrem veure la carpeta del usuari gina esta buida, per a que es creen els fitxers per defecte de un usuari primer tenim que iniciar sessio per primera vegada en aquest usuari, un cop iniciat tornarem a fer un ls i veurem que la carpeta ja no esta buida:
+
 <img width="531" height="208" alt="image" src="https://github.com/user-attachments/assets/b51a16cc-4581-4433-9300-518265fce793" />
+
+Ara crearem un nou usuari que es dira vesper pero en useradd, que es la forma rapida de crear un usuari sense informacio, despres li posarem la contrasenya al usuari amb passwd vesper i despres usermod -s /bin/bash/ vesper per a establir la nova ruta del shell del usuari, per ultim farem un cat passwd | grep vesper per a revisar que tot estigue be:
 
 <img width="559" height="243" alt="image" src="https://github.com/user-attachments/assets/a9a97ea0-6e45-4048-8639-79723ba18685" />
 
+Ara anirem al /home i farem un ls, com podem apreciar no hi ha una carpeta vesper ja que al crearlo amb useradd no es crea, la crearem nosaltres manualment amb mkdir i amb la comanda chown vesper:vesper vesper per a canviar el propietari del directori, ara amb un ls -l podrem veure que el propietari es vesper, pero ara tindrem que fer lo mateix que amb gina, iniciarem sessio per primera vegada amb vesper per a crear els fitxers i directoris:  
+
 <img width="558" height="465" alt="image" src="https://github.com/user-attachments/assets/c03abb52-8668-4754-92e4-e0504d1b0eb0" />
+
+Ara farem una prova pero en comptes de adduser sera amb deluser, crearem un usuari de prova i provarem a eliminarlo amb la comanda deluser, se borrara el usuari pero si fem un ls a home la carpeta del usuari encara existeix:
 
 <img width="705" height="260" alt="image" src="https://github.com/user-attachments/assets/ae2ce597-f5e9-4b72-b4a7-496dfaa1e182" />
 
+Ara amb un altre usuari fem un deluser -r i veiem que a part de borrar el usuari tambe borra el directori home del usuari:
+
 <img width="688" height="113" alt="image" src="https://github.com/user-attachments/assets/e3d69a74-9114-4c35-9ef1-5ae982773b4e" />
+
+Ara farem una altra prova, crearem un usuari amb adduser revisem el fitxer shadow del usuari, a continuacio li apliquem la comanda usermod -L i tornem a revisar el fitxer shadow, si ens fixem be, al començament de tot trobarem un ! que anteriorment no estava aixo lo que indica que el usuari te la contrasenya bloquejada, la comanda usermod -L bloqueja el inici de sessio de un usuari:
 
 <img width="706" height="211" alt="image" src="https://github.com/user-attachments/assets/bc5432ff-6bb5-4911-aa19-50a262dc46dc" />
 
+Per a desbloquejar la contrasenya es usermod -U:
+
 <img width="701" height="104" alt="image" src="https://github.com/user-attachments/assets/7b64521f-1ba6-4705-b08b-bc9546e255fc" />
+
+Ara farem proves pero amb els grups, crearem uns quants usuaris i amb la comanda addgroup crearem el grup proves, a continuacio revisem la paraula proves dintre del fitxer group i veurem que esta creat pero res mes, ara utilitzarem tres metodes per a afeguir un usuari dintre de un grup, adduser usuari1 proves, gpasswd -a usuari2 proves i usermod -a -G proves usuari3, un cop fet tornem a revisar el fitxer group i veurem que ara el grup proves te els 3 usuaris dintre afeguits:
 
 <img width="681" height="442" alt="image" src="https://github.com/user-attachments/assets/4aa42671-73db-4d88-a3c6-4c3c7e571347" />
 
+Per a eliminar un ussuari de un grup farem el mateix de dos formes diferents, deluser usuari3 proves i gpasswd -d usuari2 proves
+
 <img width="594" height="212" alt="image" src="https://github.com/user-attachments/assets/a1cc99b6-70e7-4ef5-ba6e-ae7e064fbaed" />
+
+Ara amb la comanda usermod -g modificarem el nou grup primari de un dels usuaris que hem eliminat del grup, si revisem el group no apareixera com a usuari del group pero si revisem el passwd podem veure que el grup primari es proves:
 
 <img width="594" height="212" alt="image" src="https://github.com/user-attachments/assets/7a0334c2-e491-4de3-a712-b1e6878275f6" />
 
