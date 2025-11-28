@@ -196,7 +196,18 @@ Ara amb la comanda usermod -g modificarem el nou grup primari de un dels usuaris
 
 <img width="594" height="212" alt="image" src="https://github.com/user-attachments/assets/7a0334c2-e491-4de3-a712-b1e6878275f6" />
 
+Ara intentem utilitzar la comanda delgroup en el grup proves, pero ens dira que no el podem eliminar, de primeres pensariem que es perque encara hi ha un usuari dintre del grup, pero no, es per culpa del usuari que hem dit que proves sigue el seu grup primari, doncs canviem una altra vegada el grup primari i ho tornem a intentar, aquesta vegada no ens dira res i s'eliminara:
+
 <img width="594" height="212" alt="image" src="https://github.com/user-attachments/assets/bb42329f-830c-4c4b-af68-dcff671134f4" />
+
+Ara revisarem els fitxers que hi han dintre del directori /etc/skel, la funció principal d'/etc/skel és garantir que cada nou usuari que es crea tingui un directori personal  ben configurat amb un conjunt bàsic de fitxers i directoris predeterminats.
+
+El contingut d'/etc/skel sol incloure fitxers de configuració essencials per a l'entorn de l'intèrpret d'ordres (shell) i la sessió de l'escriptori. Aquests fitxers són sovint ocults:
+
+- .bashrc: Conté àlies i funcions per a sessions interactives de Bash.
+- .profile: Configuració d'inici de sessió que s'executa quan l'usuari inicia sessió.
+- .bash_logout: Ordres que s'executen quan l'usuari tanca la sessió.
+- Directoris: Poden incloure directoris predeterminats per a l'escriptori com ara Desktop/, Documents/, Downloads/, etc. (especialment si es fa servir una interfície gràfica).
 
 <img width="1027" height="930" alt="image" src="https://github.com/user-attachments/assets/17336996-8b42-4aa0-9d52-97c8d14510e6" />
 
