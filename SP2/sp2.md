@@ -200,6 +200,40 @@ Ara intentem utilitzar la comanda delgroup en el grup proves, pero ens dira que 
 
 <img width="594" height="212" alt="image" src="https://github.com/user-attachments/assets/bb42329f-830c-4c4b-af68-dcff671134f4" />
 
+Despres en /etc tambe tenim una serie de fitxers importants per a la customitzacio com per exemple els seguents:
+
+El fitxer /etc/adduser.conf és el fitxer de configuració predeterminat utilitzat pels scripts adduser i deluser a Ubuntu i sistemes basats en Debian.
+
+Aquest fitxer controla el comportament, les opcions per defecte i la política de creació i eliminació d'usuaris i grups al sistema. Si es modifica aquest fitxer, els canvis afectaran totes les futures execucions de les ordres adduser i deluser.
+
+Com podreu veure en la seguent imatge farem una prova modificant el parametre FIRST_UID = 2000:
+
+<img width="1027" height="930" alt="image" src="https://github.com/user-attachments/assets/089d650d-9407-425a-b417-9a1102bcfa20" />
+
+El fitxer /etc/login.defs a Ubuntu és un fitxer de configuració crucial que defineix les polítiques predeterminades i globals per als comptes d'usuari i la seguretat del sistema.
+
+Aquest fitxer és utilitzat per les utilitats de gestió de comptes de nivell inferior, com ara useradd, usermod, i userdel, i defineix valors per defecte que afecten el procés d'inici de sessió i les polítiques de caducitat de contrasenyes.
+
+Com podreu veure en la seguent imatge farem una prova modificant el parametres PASS_MAX_DAYS, PASS_MIN_DAYS, PASS_WARN_AGE:
+
+<img width="1027" height="930" alt="image" src="https://github.com/user-attachments/assets/b16249da-c196-4e27-935a-17b2709cc975" />
+
+El fitxer /etc/default/adduser és un fitxer de configuració relativament senzill i poc freqüent que s'utilitza principalment per sobrescriure (override) algunes de les opcions de configuració definides globalment a /etc/adduser.conf.
+
+Aquest fitxer permet a l'administrador del sistema establir valors per defecte per a les ordres adduser i addgroup sense haver de modificar el fitxer de configuració principal /etc/adduser.conf.
+
+Com podreu veure en la seguent imatge farem una prova modificant el parametre SHELL=/bin/bash:
+
+<img width="1027" height="930" alt="image" src="https://github.com/user-attachments/assets/26bb30d0-9da4-41c7-aa62-47ef4be4e4a4" />
+
+Per a veure si les proves s'han aplicat de forma correcta crearem un nou usuari amb adduser i revisarem els fitxers shadow i passwd, com veurem s'han aplicat be: 
+
+<img width="1010" height="715" alt="image" src="https://github.com/user-attachments/assets/01aa355c-4893-4e00-817c-62da3564a3db" />
+
+Ara provem a creear un usuari amb useradd:
+
+<img width="1008" height="187" alt="image" src="https://github.com/user-attachments/assets/25082115-498b-4b6a-b5b5-4911f8d610fe" />
+
 Ara revisarem els fitxers que hi han dintre del directori /etc/skel, la funció principal d'/etc/skel és garantir que cada nou usuari que es crea tingui un directori personal  ben configurat amb un conjunt bàsic de fitxers i directoris predeterminats.
 
 El contingut d'/etc/skel sol incloure fitxers de configuració essencials per a l'entorn de l'intèrpret d'ordres (shell) i la sessió de l'escriptori. Aquests fitxers són sovint ocults:
@@ -207,27 +241,32 @@ El contingut d'/etc/skel sol incloure fitxers de configuració essencials per a 
 - .bashrc: Conté àlies i funcions per a sessions interactives de Bash.
 - .profile: Configuració d'inici de sessió que s'executa quan l'usuari inicia sessió.
 - .bash_logout: Ordres que s'executen quan l'usuari tanca la sessió.
-- Directoris: Poden incloure directoris predeterminats per a l'escriptori com ara Desktop/, Documents/, Downloads/, etc. (especialment si es fa servir una interfície gràfica).
+- Directoris: Poden incloure directoris predeterminats per a l'escriptori com ara Desktop/, Documents/, Downloads/, etc.
 
 <img width="1027" height="930" alt="image" src="https://github.com/user-attachments/assets/17336996-8b42-4aa0-9d52-97c8d14510e6" />
 
-<img width="1027" height="930" alt="image" src="https://github.com/user-attachments/assets/089d650d-9407-425a-b417-9a1102bcfa20" />
+El fitxer .profile és un script de configuració essencial que es troba al directori personal /home/nom_usuari de cada usuari.
 
-<img width="1027" height="930" alt="image" src="https://github.com/user-attachments/assets/b16249da-c196-4e27-935a-17b2709cc975" />
-
-<img width="1027" height="930" alt="image" src="https://github.com/user-attachments/assets/26bb30d0-9da4-41c7-aa62-47ef4be4e4a4" />
-
-<img width="1010" height="715" alt="image" src="https://github.com/user-attachments/assets/01aa355c-4893-4e00-817c-62da3564a3db" />
-
-<img width="1008" height="187" alt="image" src="https://github.com/user-attachments/assets/25082115-498b-4b6a-b5b5-4911f8d610fe" />
-
-Fer prova personal en adduser i useradd.
+La seva funció principal és establir les variables d'entorn i executar ordres que només s'han d'aplicar a sessions d'inici de sessió interactives.
 
 <img width="860" height="589" alt="image" src="https://github.com/user-attachments/assets/6e74b99e-df70-4c55-931e-2193eef0c9c5" />
 
+El fitxer .bashrc és l'script de configuració més important per a l'intèrpret d'ordres Bash. Es troba al directori personal /home/nom_usuari de cada usuari.
+
+La seva funció principal és establir configuracions i personalitzacions per a sessions del shell que no són d'inici de sessió.
+
+En aquest ultim farem una modificacio per a fer una prova, posarem la seguent linia de comanda alias conexio="ls -la", cada cop que en la terminal posessem conexio sera com executar un ls -la
 <img width="860" height="589" alt="image" src="https://github.com/user-attachments/assets/fe4b03c1-39f5-40b0-99ff-fad0213bf28b" />
 
+El fitxer .bash_logout és un script de configuració opcional que es troba al directori personal /home/nom_usuari de cada usuari.
+
+La seva funció principal és executar ordres específiques just abans que un usuari tanqui la sessió del shell Bash.
+
+En aquest ultim farem una modificacio per a fer una prova, posarem la seguent linia de comanda rm -r /var/"$USER"/imatges/*, lo que fara aquesta comanda es que eliminara tot el contingut de la carpeta imatges cada cop que es tanca la sessio de cualsevol usuari:
+
 <img width="860" height="589" alt="image" src="https://github.com/user-attachments/assets/c79375d0-ba14-4e0e-97f2-1bb9b0cc14a6" />
+
+Entrarem en la terminal i farem les proves de comprovacio:
 
 <img width="1125" height="710" alt="image" src="https://github.com/user-attachments/assets/cd33976b-6e77-4555-8cc1-d6200e3124a8" />
 
