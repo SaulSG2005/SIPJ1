@@ -273,4 +273,41 @@ Entrarem en la terminal i farem les proves de comprovacio:
 
 
 # Còpies de seguretat i automatització de tasques
+
+<img width="701" height="325" alt="image" src="https://github.com/user-attachments/assets/47bae3b7-574d-4549-aad1-acdda648d9a7" />
+
+<img width="701" height="325" alt="image" src="https://github.com/user-attachments/assets/24c0c703-030a-475b-9b54-a4d750e5d368" />
+
+<img width="701" height="325" alt="image" src="https://github.com/user-attachments/assets/1cb036e8-d3bb-49b0-8caf-e67de9cf2799" />
+
+<img width="701" height="325" alt="image" src="https://github.com/user-attachments/assets/df42e080-4ecb-4348-8a0f-99c0df64a6a4" />
+
+<img width="701" height="325" alt="image" src="https://github.com/user-attachments/assets/3593726c-6a45-4e41-b66f-56251b686180" />
+
+<img width="701" height="325" alt="image" src="https://github.com/user-attachments/assets/8629e212-2eee-463c-a02b-3f3aa48a68ba" />
+
+<img width="701" height="325" alt="image" src="https://github.com/user-attachments/assets/bbeb2619-d9e0-49d4-b5f9-61c87456ff05" />
+
+<img width="701" height="325" alt="image" src="https://github.com/user-attachments/assets/15bdf541-bbd6-449d-a812-2729f29ac1a6" />
+
+<img width="698" height="304" alt="image" src="https://github.com/user-attachments/assets/f9a7ce91-8d8f-4e80-bcd9-79d2c628b9bc" />
+
+<img width="698" height="304" alt="image" src="https://github.com/user-attachments/assets/9e056def-75f8-458c-a9f7-6a27b0ba30ea" />
+
+<img width="698" height="304" alt="image" src="https://github.com/user-attachments/assets/fd961d05-15cc-4f77-b96a-616af0755ec9" />
+
+<img width="698" height="304" alt="image" src="https://github.com/user-attachments/assets/1f1f83a5-0700-4c41-b6f8-508dd4f6f708" />
+
+<img width="702" height="415" alt="image" src="https://github.com/user-attachments/assets/edcbb445-dd15-49dc-adff-954f24424dda" />
+
+<img width="702" height="415" alt="image" src="https://github.com/user-attachments/assets/8b632876-8323-447c-a3f4-3f34ae1e2c9b" />
+
+<img width="702" height="415" alt="image" src="https://github.com/user-attachments/assets/39a705a0-8394-4a2d-aea9-acd1395d6eb5" />
+
+<img width="675" height="158" alt="image" src="https://github.com/user-attachments/assets/95e6d2fc-bbfb-47db-9dcb-e0ac90da9b91" />
+
+<img width="703" height="237" alt="image" src="https://github.com/user-attachments/assets/f8f66dc9-65c0-49a6-94e1-921785f8bf3b" />
+
+
+
 # Gestió de procesos
