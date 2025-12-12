@@ -270,9 +270,7 @@ Entrarem en la terminal i farem les proves de comprovacio:
 
 <img width="1125" height="710" alt="image" src="https://github.com/user-attachments/assets/cd33976b-6e77-4555-8cc1-d6200e3124a8" />
 
-
-
-# Còpies de seguretat i automatització de tasques
+### Permisos
 
 <img width="701" height="325" alt="image" src="https://github.com/user-attachments/assets/47bae3b7-574d-4549-aad1-acdda648d9a7" />
 
@@ -308,6 +306,99 @@ Entrarem en la terminal i farem les proves de comprovacio:
 
 <img width="703" height="237" alt="image" src="https://github.com/user-attachments/assets/f8f66dc9-65c0-49a6-94e1-921785f8bf3b" />
 
+# Còpies de seguretat i automatització de tasques
+
+## Teoria copies de seguretat
+
+Una copia de seguretat es ...
+
+Tipus de copies de seguretat:
+- Completa:
+- diferencials:
+- incrementals:
+
+## Teoria comandes backup
+
+### cp
+
+Es una copia simple, no es inteligent i nomes se utilitza en sistemes locals.
+
+### rsync
+
+Es per a sincronitzar carpetes, es pot fer en local i en remot, es pot conectar amb ssh. Es inteligent.
+
+### dd
+
+Es per a clonar particions o discos. No es inteligent.
+
+## practica comandes backup
+
+<img width="791" height="455" alt="image" src="https://github.com/user-attachments/assets/8e1be535-82a6-4961-a7dd-8eb6334e3073" />
+
+### cp
+
+<img width="817" height="578" alt="image" src="https://github.com/user-attachments/assets/1f7007cd-680d-4436-8260-90d5aefed60a" />
+
+
+### rsync
+
+<img width="883" height="549" alt="image" src="https://github.com/user-attachments/assets/abf3248e-4244-4b13-9fd8-c4f06a0a597e" />
+
+
+### dd
+
+<img width="883" height="549" alt="image" src="https://github.com/user-attachments/assets/fcdab8d9-66a6-4392-804d-68bc28e89891" />
+
+## practica programes backup
+
+### Deja-dup
+
+### Duplicity
+
+## Teoria automatitzacio scripts, cron i anacron
+
+Un script es...
+
+Serveix per a ...
+El Cron es un servei del sistema operatiu que serveix per a automatitzar tasques per a usuaris en un apartat i hora en concret, si el ordinador s'apaga, la tasca es perd.
+
+El Anacron es un servei del sistema operatiu que serveix per a automatitzar tasques de manteniment p tasques generals, si el ordinador s'apaga, el anacron espera a que es torne a enjagar i l'executa. Anteriorment treballaben per separat, actualment treballen conjuntament.
+
+## Practica automatitzacio
+### Cron
+
+<img width="931" height="469" alt="image" src="https://github.com/user-attachments/assets/938c486b-fc1d-4142-8b2d-48a91d68ddea" />
+
+<img width="586" height="218" alt="image" src="https://github.com/user-attachments/assets/a53c716d-db4e-4114-a188-992cf4a9ae60" />
+
+<img width="491" height="311" alt="image" src="https://github.com/user-attachments/assets/7c63a95a-d821-4839-85bc-18ed3ca26956" />
+
+<img width="794" height="472" alt="image" src="https://github.com/user-attachments/assets/42eb2b62-41ab-4a8d-9604-887fdc63d1dd" />
+
+<img width="716" height="115" alt="image" src="https://github.com/user-attachments/assets/d349a705-0ab8-4bd3-b8cd-fbbdc038e292" />
+
+<img width="461" height="310" alt="image" src="https://github.com/user-attachments/assets/35bd6956-c3a7-409f-9d65-8684a0792071" />
+
+<img width="892" height="475" alt="image" src="https://github.com/user-attachments/assets/122da0f7-6832-42b8-84bb-2c03420cb24a" />
+
+<img width="892" height="475" alt="image" src="https://github.com/user-attachments/assets/00d8c3fc-bdb3-4362-8065-b45357e2f606" />
+
+<img width="892" height="475" alt="image" src="https://github.com/user-attachments/assets/80e839c6-1f3b-4dc7-bc10-424e4eaefdae" />
+
+
+
+
+### Anacron
+
+<img width="876" height="274" alt="image" src="https://github.com/user-attachments/assets/fae2c244-4c70-42f4-8c07-4f84907fa125" />
+
+<img width="960" height="242" alt="image" src="https://github.com/user-attachments/assets/b4c0e114-b450-4561-8076-6bf8ff73921b" />
+
+<img width="731" height="259" alt="image" src="https://github.com/user-attachments/assets/2423f455-a8b5-4de0-82c0-aee5af262a6f" />
+
+<img width="731" height="259" alt="image" src="https://github.com/user-attachments/assets/c238a477-dc4e-440c-b2f7-6aac16220b4d" />
+
+<img width="906" height="405" alt="image" src="https://github.com/user-attachments/assets/229c7ac7-35d7-4cb3-b71c-dfe905c66a93" />
 
 
 # Gestió de procesos
