@@ -272,37 +272,83 @@ Entrarem en la terminal i farem les proves de comprovacio:
 
 ### Permisos
 
+Ara farem un par de proves de permisos amb 4 nous usuaris, groc, blau, verd, roig:
+
 <img width="701" height="325" alt="image" src="https://github.com/user-attachments/assets/47bae3b7-574d-4549-aad1-acdda648d9a7" />
+
+Crearem una carpeta que es dira compartida:
 
 <img width="701" height="325" alt="image" src="https://github.com/user-attachments/assets/24c0c703-030a-475b-9b54-a4d750e5d368" />
 
-<img width="701" height="325" alt="image" src="https://github.com/user-attachments/assets/1cb036e8-d3bb-49b0-8caf-e67de9cf2799" />
+Farem a groc propietari de la carpeta i afeguirem un grup que es dira parchis i amb la comanda chmod 750 -R compartida/ fareem lo seguent:
+
+750: És el codi de permís octal, format per tres dígits:
+
+-- 7 (Usuari Propietari): 4 (lectura) + 2 (escriptura) + 1 (execució) = Permís total (rwx).
+
+-- 5 (Grup Propietari): 4 (lectura) + 0 (escriptura) + 1 (execució) = Només lectura i execució (r-x).
+
+-- 0 (Altres/Everyone Else): 0 (lectura) + 0 (escriptura) + 0 (execució) = Cap permís (---).
+
+-- -R: Recursiu, aplica els permisos al directori i a tot el seu contingut.
 
 <img width="701" height="325" alt="image" src="https://github.com/user-attachments/assets/df42e080-4ecb-4348-8a0f-99c0df64a6a4" />
 
+Farem la prova d'usuari groc i veurem quins permisos te:
+
 <img width="701" height="325" alt="image" src="https://github.com/user-attachments/assets/3593726c-6a45-4e41-b66f-56251b686180" />
+
+Farem la prova d'usuari blau i veurem quins permisos te:
 
 <img width="701" height="325" alt="image" src="https://github.com/user-attachments/assets/8629e212-2eee-463c-a02b-3f3aa48a68ba" />
 
+Farem la prova d'usuari verd i veurem quins permisos te:
+
 <img width="701" height="325" alt="image" src="https://github.com/user-attachments/assets/bbeb2619-d9e0-49d4-b5f9-61c87456ff05" />
+
+Ara farem porves amb la comanda getfacl, aquesta comanda mostra els permisos en un format més granular i revela si s'han aplicat Llistes de Control d'Accés (ACL). Les ACLs permeten donar permisos a usuaris o grups específics que no siguin ni el propietari ni el grup principal.
 
 <img width="701" height="325" alt="image" src="https://github.com/user-attachments/assets/15bdf541-bbd6-449d-a812-2729f29ac1a6" />
 
+Llavors crearem una nova ACL i crearem un usuari que es dira morat i li donarem acces a ña carpeta compartida encara que no estigue dintre del grup:
+
 <img width="698" height="304" alt="image" src="https://github.com/user-attachments/assets/f9a7ce91-8d8f-4e80-bcd9-79d2c628b9bc" />
+
+Farem la prova d'usuari morat i veurem quins permisos te:
 
 <img width="698" height="304" alt="image" src="https://github.com/user-attachments/assets/9e056def-75f8-458c-a9f7-6a27b0ba30ea" />
 
+Ara farem lo mateix amb l'usuari roig pero no li donarem els permisos:
+
 <img width="698" height="304" alt="image" src="https://github.com/user-attachments/assets/fd961d05-15cc-4f77-b96a-616af0755ec9" />
+
+Farem la prova d'usuari roig i veurem quins permisos te:
 
 <img width="698" height="304" alt="image" src="https://github.com/user-attachments/assets/1f1f83a5-0700-4c41-b6f8-508dd4f6f708" />
 
+Amb la comanda setfacl -b eliminem totes les ACL de la carpeta /compartida
+
 <img width="702" height="415" alt="image" src="https://github.com/user-attachments/assets/edcbb445-dd15-49dc-adff-954f24424dda" />
+
+Tornem a canviar al propietari per root i amb la comanda chmod 777 donem aquests permisos a la carpeta /compartida:
+
+-- 7 (Usuari Propietari): Lectura, escriptura, execució (rwx).
+
+-- 7 (Grup Propietari): Lectura, escriptura, execució (rwx).
+
+-- 7 (Altres/Everyone Else): Lectura, escriptura, execució (rwx).
 
 <img width="702" height="415" alt="image" src="https://github.com/user-attachments/assets/8b632876-8323-447c-a3f4-3f34ae1e2c9b" />
 
+Farem la prova d'usuari blau i veurem quins permisos te:
+
 <img width="702" height="415" alt="image" src="https://github.com/user-attachments/assets/39a705a0-8394-4a2d-aea9-acd1395d6eb5" />
 
+Farem lo mateix pero ara amb la comanda chmod 1777, aixo afeguira el Sticky Bi. El Sticky Bit és un permís especial que s'aplica principalment als directoris. Quan s'activa, permet a qualsevol usuari crear fitxers dins d'aquest directori, però només el propietari original del fitxer (o l'usuari root) pot esborrar o canviar el nom d'aquest fitxer.
+
 <img width="675" height="158" alt="image" src="https://github.com/user-attachments/assets/95e6d2fc-bbfb-47db-9dcb-e0ac90da9b91" />
+
+Farem la prova d'usuari verd i veurem quins permisos te:
 
 <img width="703" height="237" alt="image" src="https://github.com/user-attachments/assets/f8f66dc9-65c0-49a6-94e1-921785f8bf3b" />
 
@@ -310,12 +356,12 @@ Entrarem en la terminal i farem les proves de comprovacio:
 
 ## Teoria copies de seguretat
 
-Una copia de seguretat es ...
+Una còpia de seguretat és una còpia de les dades emmagatzemades en un dispositiu d'emmagatzematge, com ara un disc dur, una unitat USB o un servei de núvol. Aquesta còpia es fa per protegir les dades contra la pèrdua en cas de fallada del dispositiu, error humà, desastre natural o atac de programari maliciós.
 
 Tipus de copies de seguretat:
-- Completa:
-- diferencials:
-- incrementals:
+- Completa:  Aquest tipus de còpia implica copiar tots els fitxers i dades seleccionats alhora. És la còpia de seguretat més completa, ja que inclou tot el que necessites.
+- diferencials: Aquestes còpies només copien els fitxers que han canviat des de l'última còpia de seguretat completa. Això significa que la primera còpia de seguretat diferencial copiarà tots els fitxers, però les còpies posteriors només copiaran els canvis des de la còpia completa.
+- incrementals: Aquestes còpies només copien els fitxers que han canviat des de l'última còpia de seguretat, ja sigui completa o incremental. Això fa que les còpies incrementals siguin les més ràpides i que ocupin menys espai d'emmagatzematge.
 
 ## Teoria comandes backup
 
@@ -333,19 +379,22 @@ Es per a clonar particions o discos. No es inteligent.
 
 ## practica comandes backup
 
+Primerament afeguirem dos discos de 10 GB a la maquina virtual i els formatejem:
+
 <img width="791" height="455" alt="image" src="https://github.com/user-attachments/assets/8e1be535-82a6-4961-a7dd-8eb6334e3073" />
 
 ### cp
+Ara farem una proba amb el cp (copia i pegar), amb la comanda "cp -R /home/Saul/Documents/* /var/copies/" farem una copia de tot lo que hi ha a documents i pegarem a la carpeta copies:
 
 <img width="817" height="578" alt="image" src="https://github.com/user-attachments/assets/1f7007cd-680d-4436-8260-90d5aefed60a" />
 
-
 ### rsync
+La comanda rsync -av --delete /origen /desti s'utilitza per transferir i sincronitzar arxius de manera molt més eficient que cp, ja que només copia els fitxers que han canviat. Ho podem veure en la seguent prova:
 
 <img width="883" height="549" alt="image" src="https://github.com/user-attachments/assets/abf3248e-4244-4b13-9fd8-c4f06a0a597e" />
 
-
 ### dd
+La comanda dd if=/dev/sdd of=/dev/sde1 bs=1M status=progress s'utilitza per realitzar còpies a baix nivell (a nivell de bytes o blocs), essent l'eina estàndard per a la clonació de discos o la creació d'imatges.
 
 <img width="883" height="549" alt="image" src="https://github.com/user-attachments/assets/fcdab8d9-66a6-4392-804d-68bc28e89891" />
 
@@ -357,9 +406,9 @@ Es per a clonar particions o discos. No es inteligent.
 
 ## Teoria automatitzacio scripts, cron i anacron
 
-Un script es...
+Un script es un conjunt d'instruccions o ordres que s'executen en seqüència per dur a terme una tasca específica.
 
-Serveix per a ...
+Serveix per a automatitzar tasques, simplificar processos i fer que els ordinadors facin el treball per tu. La seva utilitat depèn del llenguatge de script utilitzat i de la tasca que es vol dur a terme.
 El Cron es un servei del sistema operatiu que serveix per a automatitzar tasques per a usuaris en un apartat i hora en concret, si el ordinador s'apaga, la tasca es perd.
 
 El Anacron es un servei del sistema operatiu que serveix per a automatitzar tasques de manteniment p tasques generals, si el ordinador s'apaga, el anacron espera a que es torne a enjagar i l'executa. Anteriorment treballaben per separat, actualment treballen conjuntament.
@@ -367,21 +416,41 @@ El Anacron es un servei del sistema operatiu que serveix per a automatitzar tasq
 ## Practica automatitzacio
 ### Cron
 
+En /etc/crontab permet a l'administrador del sistema programar qualsevol comanda per executar-se automàticament en intervals de temps regulars. 
+
 <img width="931" height="469" alt="image" src="https://github.com/user-attachments/assets/938c486b-fc1d-4142-8b2d-48a91d68ddea" />
+
+Aquests són fitxers de text que contenen les regles per a les tasques programades:
+
+-- cron.d: Un directori on les aplicacions poden deixar els seus propis fitxers de crontab individuals, evitant tocar el fitxer mestre /etc/crontab.
+
+-- cron.daily: Tots els scripts dins d'aquest directori s'executen cada dia.
+
+--cron.hourly: Tots els scripts dins d'aquest directori s'executen cada hora.
+
+-- cron.monthly: Tots els scripts dins d'aquest directori s'executen cada mes.
+
+-- cron.weekly: Tots els scripts dins d'aquest directori s'executen cada setmana.
 
 <img width="586" height="218" alt="image" src="https://github.com/user-attachments/assets/a53c716d-db4e-4114-a188-992cf4a9ae60" />
 
+Amb la comanda crontab -e permet a l'usuari actual editar el seu propi fitxer de crontab personal. Les tasques que s'afegeixen aquí només s'executen sota la identitat d'aquest usuari:
+
 <img width="491" height="311" alt="image" src="https://github.com/user-attachments/assets/7c63a95a-d821-4839-85bc-18ed3ca26956" />
 
-<img width="794" height="472" alt="image" src="https://github.com/user-attachments/assets/42eb2b62-41ab-4a8d-9604-887fdc63d1dd" />
-
-<img width="716" height="115" alt="image" src="https://github.com/user-attachments/assets/d349a705-0ab8-4bd3-b8cd-fbbdc038e292" />
+Ara crearem un script personalitzat que es dira copies.sh:
 
 <img width="461" height="310" alt="image" src="https://github.com/user-attachments/assets/35bd6956-c3a7-409f-9d65-8684a0792071" />
 
-<img width="892" height="475" alt="image" src="https://github.com/user-attachments/assets/122da0f7-6832-42b8-84bb-2c03420cb24a" />
+Al script li direm amb TIMESTAMP que agare la data, i amb tar -cvf lo nom i el directori que volem copiar i despres posem lo directori de desti on se fara aquesta copia:
+
+<img width="716" height="115" alt="image" src="https://github.com/user-attachments/assets/d349a705-0ab8-4bd3-b8cd-fbbdc038e292" />
+
+Per ultim a /etc/crontab li donarem la instruccio de execuccio del script a l'hora designada:
 
 <img width="892" height="475" alt="image" src="https://github.com/user-attachments/assets/00d8c3fc-bdb3-4362-8065-b45357e2f606" />
+
+Comprovacio completa:
 
 <img width="892" height="475" alt="image" src="https://github.com/user-attachments/assets/80e839c6-1f3b-4dc7-bc10-424e4eaefdae" />
 
@@ -390,15 +459,18 @@ El Anacron es un servei del sistema operatiu que serveix per a automatitzar tasq
 
 ### Anacron
 
+El /etc/anacront6ab es el fitxer de configuracio base per a tot el anacron, aqui configurarem el fitxer cron.dialy:
+
 <img width="876" height="274" alt="image" src="https://github.com/user-attachments/assets/fae2c244-4c70-42f4-8c07-4f84907fa125" />
 
-<img width="960" height="242" alt="image" src="https://github.com/user-attachments/assets/b4c0e114-b450-4561-8076-6bf8ff73921b" />
+Modificarem el 5 per un 1 per a que tarde nomes 1 minut en començar el dia en executar el script:
 
 <img width="731" height="259" alt="image" src="https://github.com/user-attachments/assets/2423f455-a8b5-4de0-82c0-aee5af262a6f" />
 
-<img width="731" height="259" alt="image" src="https://github.com/user-attachments/assets/c238a477-dc4e-440c-b2f7-6aac16220b4d" />
+Farem una copia del script anterior en el directori cron.dialy:
+
+<img width="960" height="242" alt="image" src="https://github.com/user-attachments/assets/b4c0e114-b450-4561-8076-6bf8ff73921b" />
+
+Comprovacio de que la copia s'ha creat:
 
 <img width="906" height="405" alt="image" src="https://github.com/user-attachments/assets/229c7ac7-35d7-4cb3-b71c-dfe905c66a93" />
-
-
-# Gestió de procesos
