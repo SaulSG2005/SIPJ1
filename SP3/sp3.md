@@ -38,7 +38,7 @@
 
 # Unir client al domini
 
-<img width="1170" height="251" alt="image" src="https://github.com/user-attachments/assets/3796e18a-4e35-418b-8fb9-8a5094cc8ce9" />
+<img width="1085" height="380" alt="image" src="https://github.com/user-attachments/assets/e21a70e3-eda5-410f-a109-e362ddd10c60" />
 
 <img width="1170" height="251" alt="image" src="https://github.com/user-attachments/assets/e58b3fc8-56b6-4bdb-9893-9c776239b30e" />
 
