@@ -1,3 +1,4 @@
+
 # Sprint 3: Gestio de Dominis i Accessos
 
 ## Instal·lacio domini LDAP i unir client al domini
