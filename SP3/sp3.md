@@ -65,3 +65,41 @@
 
 <img width="893" height="116" alt="image" src="https://github.com/user-attachments/assets/165091c0-7acd-4005-9a87-2f66aa0f9464" />
 
+# Servidors SAMBA i NFS
+
+## Servidor Samba
+
+El servidor Samba i LFS serveis per compartir arxius, el SAMBA tambe te autentificacio a nivell ldap, mentre que NFS ho fa per IP.
+
+<img width="740" height="447" alt="image" src="https://github.com/user-attachments/assets/e0aca282-2e80-49d9-baed-7d58175d5087" />
+
+<img width="568" height="228" alt="image" src="https://github.com/user-attachments/assets/9b3324a0-b67b-4230-87be-0e324202fbb6" />
+
+<img width="542" height="374" alt="image" src="https://github.com/user-attachments/assets/13b7cdf2-bc22-470c-8774-4cb5df8198b4" />
+
+<img width="508" height="234" alt="image" src="https://github.com/user-attachments/assets/6eed3478-5f08-4500-a542-325bb8a07537" />
+
+<img width="358" height="200" alt="image" src="https://github.com/user-attachments/assets/5adbe710-44ea-43d5-8f36-9c14f1089392" />
+
+<img width="1112" height="727" alt="image" src="https://github.com/user-attachments/assets/c21df93d-0b2f-4b1a-8ef9-70ce7b1ad8b9" />
+
+## Prova amb client
+
+<img width="710" height="336" alt="image" src="https://github.com/user-attachments/assets/eab11f15-9a0e-425d-9ede-d9390c7a0dda" />
+
+<img width="885" height="551" alt="image" src="https://github.com/user-attachments/assets/facaafdf-8eab-4277-91f9-ff60edb8e343" />
+
+<img width="885" height="551" alt="image" src="https://github.com/user-attachments/assets/5806b7d7-016f-4c6d-a350-363c1923f6a8" />
+
+<img width="885" height="551" alt="image" src="https://github.com/user-attachments/assets/b5d7c902-215d-4423-9a30-77febbd4abfa" />
+
+<img width="885" height="551" alt="image" src="https://github.com/user-attachments/assets/4aa31f0a-a0db-44af-9afa-611cb4c6090e" />
+
+<img width="885" height="551" alt="image" src="https://github.com/user-attachments/assets/01dfc6d3-efc9-4cb0-a169-4ced55ac2bf8" />
+
+<img width="885" height="551" alt="image" src="https://github.com/user-attachments/assets/30779bbf-bcaa-4609-9e29-ee690138d197" />
+
+<img width="885" height="551" alt="image" src="https://github.com/user-attachments/assets/f68df77b-0937-4135-ab78-7f3691e0d700" />
+
+<img width="885" height="551" alt="image" src="https://github.com/user-attachments/assets/c170f590-1c91-4172-8fc5-b331535c9bf1" />
+
