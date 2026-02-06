@@ -141,3 +141,52 @@ El servidor Samba i LFS serveis per compartir arxius, el SAMBA tambe te autentif
 
 <img width="885" height="551" alt="image" src="https://github.com/user-attachments/assets/c170f590-1c91-4172-8fc5-b331535c9bf1" />
 
+## Servidor NFS
+
+<img width="725" height="272" alt="image" src="https://github.com/user-attachments/assets/857c5cf3-0709-4a9a-bc76-7916938ab052" />
+
+<img width="735" height="257" alt="image" src="https://github.com/user-attachments/assets/4502218f-a5dd-4011-a174-6ba166e8da32" />
+
+<img width="722" height="330" alt="image" src="https://github.com/user-attachments/assets/fdfdd187-1a94-4350-9f36-9b4b7575c555" />
+
+<img width="722" height="330" alt="image" src="https://github.com/user-attachments/assets/68dca35c-52c1-4162-b1ad-1e2bef5f3150" />
+
+<img width="722" height="330" alt="image" src="https://github.com/user-attachments/assets/e2b2a3dd-26d0-472c-be01-da4b2e6fe422" />
+
+## Prova amb client
+
+<img width="874" height="372" alt="image" src="https://github.com/user-attachments/assets/a8c54e33-85ca-4492-99b3-c13b78146c0a" />
+
+<img width="874" height="372" alt="image" src="https://github.com/user-attachments/assets/843f639f-c7c1-4bd2-91be-2f91dbd96574" />
+
+<img width="1202" height="400" alt="image" src="https://github.com/user-attachments/assets/93066c0d-b7ad-4a2f-91cf-5dbf22f0371e" />
+
+<img width="534" height="135" alt="image" src="https://github.com/user-attachments/assets/f4962267-c943-42c0-b3dd-64f73818dede" />
+
+<img width="782" height="243" alt="image" src="https://github.com/user-attachments/assets/d7c7f114-9a4b-428d-8048-b1540332492a" />
+
+<img width="1010" height="318" alt="image" src="https://github.com/user-attachments/assets/1a372182-7da8-4e7d-ba21-3aa4fee5dfa6" />
+
+<img width="1042" height="399" alt="image" src="https://github.com/user-attachments/assets/968c03ad-7c16-42ad-a0b4-a695ffa6f35d" />
+
+<img width="565" height="181" alt="image" src="https://github.com/user-attachments/assets/e4d126fe-39f8-4ebe-9571-882e3424c817" />
+
+<img width="727" height="304" alt="image" src="https://github.com/user-attachments/assets/bdc18c07-ea42-411a-9b51-cc7ee877ca25" />
+
+<img width="727" height="304" alt="image" src="https://github.com/user-attachments/assets/fa9d180b-dbad-4f58-a669-772374b3d5c4" />
+
+<img width="727" height="304" alt="image" src="https://github.com/user-attachments/assets/a6deccf7-1124-41d1-84ce-33d53d13f264" />
+
+<img width="727" height="304" alt="image" src="https://github.com/user-attachments/assets/71c8c884-46a6-4d63-a5e8-5a29359672ca" />
+
+<img width="731" height="428" alt="image" src="https://github.com/user-attachments/assets/b5dd858c-9275-4950-9104-5f5754620541" />
+
+<img width="906" height="172" alt="image" src="https://github.com/user-attachments/assets/bea1790a-ab20-4304-8dec-2ddac3c89882" />
+
+<img width="898" height="137" alt="image" src="https://github.com/user-attachments/assets/e510cdb6-beaa-4492-b756-2cae3d844940" />
+
+
+## Exercici
+
+Agarrar un windows i conectarnos a la carpeta compartida:
+
