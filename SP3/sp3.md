@@ -73,34 +73,59 @@ Comprovem que esta tot correcte amb slapcat:
 
 # Unir client al domini
 
-
+Selecció de la URI del servidor: Configuració de l'adreça del servidor LDAP mitjançant la IP 10.0.2.1 per establir la comunicació inicial.
 
 <img width="1085" height="380" alt="image" src="https://github.com/user-attachments/assets/e21a70e3-eda5-410f-a109-e362ddd10c60" />
 
+Nom del domini (Search base): Definició de la base de cerca del directori utilitzant el nom de domini dc=saul,dc=cat.
+
 <img width="1170" height="251" alt="image" src="https://github.com/user-attachments/assets/e58b3fc8-56b6-4bdb-9893-9c776239b30e" />
+
+Versió del protocol: Selecció de la versió 3 del protocol LDAP, que és l'estàndard actual per garantir la compatibilitat i seguretat.
 
 <img width="1170" height="251" alt="image" src="https://github.com/user-attachments/assets/f3457414-0455-4466-8577-c64f851fa936" />
 
+Requisit de login: Configuració del sistema per permetre l'entrada a la base de dades LDAP quan sigui necessari recuperar dades.
+
 <img width="1170" height="251" alt="image" src="https://github.com/user-attachments/assets/1156c525-f9f8-43d0-ba48-fec4e14882dd" />
+
+Compte d'administrador (Root): Especificació del compte amb privilegis (cn=admin,dc=saul,dc=cat) per gestionar canvis de contrasenyes des del client.
 
 <img width="1170" height="251" alt="image" src="https://github.com/user-attachments/assets/00509867-194a-4376-b9dd-e2211ebd82e3" />
 
+Contrasenya de Root: Introducció de la credencial de l'administrador que s'emmagatzemarà de forma segura al fitxer /etc/ldap.secret.
+
 <img width="1170" height="251" alt="image" src="https://github.com/user-attachments/assets/df3206d1-c7b7-4c6d-833b-7b0134ac4f63" />
+
+Usuari de la base de dades: Definició del compte d'usuari (en aquest cas l'admin) que s'utilitzarà per connectar-se al directori.
 
 <img width="1170" height="251" alt="image" src="https://github.com/user-attachments/assets/8e358e0f-38be-4ec4-b60b-c2c88f496634" />
 
+Validació final de contrasenya: Confirmació de la contrasenya del compte d'usuari per finalitzar la configuració de l'autenticació LDAP.
+
 <img width="1170" height="251" alt="image" src="https://github.com/user-attachments/assets/f58fce2d-27f3-40aa-948e-679f970a176f" />
+
+Execució del comandament dpkg-reconfigure ldap-auth-config per iniciar l'assistent de configuració de l'autenticació LDAP al terminal.
 
 <img width="1170" height="251" alt="image" src="https://github.com/user-attachments/assets/ee22672a-8568-42cf-a664-9244c44030f1" />
 
+Confirmació final de la contrasenya del compte per realitzar el login a la base de dades.
+
 <img width="1200" height="408" alt="image" src="https://github.com/user-attachments/assets/dddfd627-c125-4363-92a7-ea99964a048d" />
+
+Edició del fitxer de serveis de xarxa per afegir ldap a les línies de passwd, group i shadow, permetent que el sistema busqui usuaris al directori.
 
 <img width="1156" height="623" alt="image" src="https://github.com/user-attachments/assets/7a9f9ff8-eda4-4c26-b1f6-dcb8183ed327" />
 
+Inclusió de la línia session optional pam_mkhomedir.so per crear automàticament el directori personal (Home) dels usuaris del domini en iniciar sessió.
+
 <img width="1154" height="665" alt="image" src="https://github.com/user-attachments/assets/c79fc569-473b-4252-a7c6-4cbe74783ed3" />
+
+Configuració del mòdul PAM per gestionar el canvi de contrasenyes i la validació dels usuaris de LDAP al sistema.
 
 <img width="893" height="116" alt="image" src="https://github.com/user-attachments/assets/165091c0-7acd-4005-9a87-2f66aa0f9464" />
 
+Edició de la configuració de LightDM per afegir la línia greeter-show-manual-login=true, permetent escriure manualment el nom d'usuari del domini a la pantalla d'inici.
 
 
 # Servidors SAMBA i NFS
@@ -109,61 +134,109 @@ Comprovem que esta tot correcte amb slapcat:
 
 El servidor Samba i LFS serveis per compartir arxius, el SAMBA tambe te autentificacio a nivell ldap, mentre que NFS ho fa per IP.
 
+instal·lem el paquet smbclient al terminal del client. Amb aquesta eina podrem accedir als recursos compartits, llistar les carpetes del servidor Samba i verificar que la connexió de xarxa per a la compartició de fitxers funciona correctament.
+
 <img width="740" height="447" alt="image" src="https://github.com/user-attachments/assets/e0aca282-2e80-49d9-baed-7d58175d5087" />
+
+Creeem els fitxers i els ho donem permisos:
 
 <img width="568" height="228" alt="image" src="https://github.com/user-attachments/assets/9b3324a0-b67b-4230-87be-0e324202fbb6" />
 
+Creem els diferents usuaris i els afegim al domini samba:
+
 <img width="542" height="374" alt="image" src="https://github.com/user-attachments/assets/13b7cdf2-bc22-470c-8774-4cb5df8198b4" />
+
+Afegim els usuaris groc i roig al grup colors:
 
 <img width="508" height="234" alt="image" src="https://github.com/user-attachments/assets/6eed3478-5f08-4500-a542-325bb8a07537" />
 
+Creem les restriccions per als diferents usuaris:
+
 <img width="358" height="200" alt="image" src="https://github.com/user-attachments/assets/5adbe710-44ea-43d5-8f36-9c14f1089392" />
+
+Fem un restart del smb i un update despres:
 
 <img width="1112" height="727" alt="image" src="https://github.com/user-attachments/assets/c21df93d-0b2f-4b1a-8ef9-70ce7b1ad8b9" />
 
 ## Prova amb client
 
+Instalem el smbclient al client:
+
 <img width="710" height="336" alt="image" src="https://github.com/user-attachments/assets/eab11f15-9a0e-425d-9ede-d9390c7a0dda" />
+
+Desde el sistema de fitxers farem les proves de access al servidor, primerament entrarem en anonim:
 
 <img width="885" height="551" alt="image" src="https://github.com/user-attachments/assets/facaafdf-8eab-4277-91f9-ff60edb8e343" />
 
+Podrem veure lo que hi ha dintre
+
 <img width="885" height="551" alt="image" src="https://github.com/user-attachments/assets/5806b7d7-016f-4c6d-a350-363c1923f6a8" />
+
+Ara amb l'usuari blau:
 
 <img width="885" height="551" alt="image" src="https://github.com/user-attachments/assets/b5d7c902-215d-4423-9a30-77febbd4abfa" />
 
+Podrem veure i editar:
+
 <img width="885" height="551" alt="image" src="https://github.com/user-attachments/assets/4aa31f0a-a0db-44af-9afa-611cb4c6090e" />
+
+Editem el .txt:
 
 <img width="885" height="551" alt="image" src="https://github.com/user-attachments/assets/01dfc6d3-efc9-4cb0-a169-4ced55ac2bf8" />
 
+Ara entrem amb l'usuari groc:
+
 <img width="885" height="551" alt="image" src="https://github.com/user-attachments/assets/30779bbf-bcaa-4609-9e29-ee690138d197" />
+
+podrem veure pero no editar el .txt:
 
 <img width="885" height="551" alt="image" src="https://github.com/user-attachments/assets/f68df77b-0937-4135-ab78-7f3691e0d700" />
 
-<img width="885" height="551" alt="image" src="https://github.com/user-attachments/assets/c170f590-1c91-4172-8fc5-b331535c9bf1" />
-
 ## Servidor NFS
+
+Installem el NFS:
 
 <img width="725" height="272" alt="image" src="https://github.com/user-attachments/assets/857c5cf3-0709-4a9a-bc76-7916938ab052" />
 
+Fem un status:
+
 <img width="735" height="257" alt="image" src="https://github.com/user-attachments/assets/4502218f-a5dd-4011-a174-6ba166e8da32" />
+
+Anem a la arrel i creem la carpeta provernfs i li donarem permisos:
 
 <img width="722" height="330" alt="image" src="https://github.com/user-attachments/assets/fdfdd187-1a94-4350-9f36-9b4b7575c555" />
 
+Ara anem a /etc/exports i crearem la linea de comanda seguent que fara que la carpeta provernfs sigui reconeguda pel servidor:
+
 <img width="722" height="330" alt="image" src="https://github.com/user-attachments/assets/68dca35c-52c1-4162-b1ad-1e2bef5f3150" />
+
+farem un restart i despres un status:
 
 <img width="722" height="330" alt="image" src="https://github.com/user-attachments/assets/e2b2a3dd-26d0-472c-be01-da4b2e6fe422" />
 
 ## Prova amb client
 
+Al client instalarem el nfs-commons:
+
 <img width="874" height="372" alt="image" src="https://github.com/user-attachments/assets/a8c54e33-85ca-4492-99b3-c13b78146c0a" />
+
+crearem una carpeta que es dira divendres:
 
 <img width="874" height="372" alt="image" src="https://github.com/user-attachments/assets/843f639f-c7c1-4bd2-91be-2f91dbd96574" />
 
+En /etc/fstab posarem la seguent linia que conectara la carpeta divendres en la carpeta provernfs que hi ha al servidor:
+
 <img width="1202" height="400" alt="image" src="https://github.com/user-attachments/assets/93066c0d-b7ad-4a2f-91cf-5dbf22f0371e" />
+
+Al servidor per a fer la prova crearem hola.txt:
 
 <img width="534" height="135" alt="image" src="https://github.com/user-attachments/assets/f4962267-c943-42c0-b3dd-64f73818dede" />
 
+Al client despres de reiniciar accedirem a divendres per a comprovar si hola.txt esta alli i crearem adeu.txt:
+
 <img width="782" height="243" alt="image" src="https://github.com/user-attachments/assets/d7c7f114-9a4b-428d-8048-b1540332492a" />
+
+Ara crearem la carpeta perfils i la conectarem a divendres:
 
 <img width="1010" height="318" alt="image" src="https://github.com/user-attachments/assets/1a372182-7da8-4e7d-ba21-3aa4fee5dfa6" />
 
