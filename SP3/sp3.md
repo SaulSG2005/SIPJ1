@@ -73,59 +73,57 @@ Comprovem que esta tot correcte amb slapcat:
 
 # Unir client al domini
 
-Selecció de la URI del servidor: Configuració de l'adreça del servidor LDAP mitjançant la IP 10.0.2.1 per establir la comunicació inicial.
+Configurem l'adreça del servidor LDAP:
 
 <img width="1085" height="380" alt="image" src="https://github.com/user-attachments/assets/e21a70e3-eda5-410f-a109-e362ddd10c60" />
 
-Nom del domini (Search base): Definició de la base de cerca del directori utilitzant el nom de domini dc=saul,dc=cat.
+Definim el nom de domini a dc=saul,dc=cat:
 
 <img width="1170" height="251" alt="image" src="https://github.com/user-attachments/assets/e58b3fc8-56b6-4bdb-9893-9c776239b30e" />
 
-Versió del protocol: Selecció de la versió 3 del protocol LDAP, que és l'estàndard actual per garantir la compatibilitat i seguretat.
+Seleccionem la versió 3 del protocol LDAP:
 
 <img width="1170" height="251" alt="image" src="https://github.com/user-attachments/assets/f3457414-0455-4466-8577-c64f851fa936" />
 
-Requisit de login: Configuració del sistema per permetre l'entrada a la base de dades LDAP quan sigui necessari recuperar dades.
+Configurem el sistema per permetre l'entrada a la base de dades LDAP quan sigui necessari recuperar dades:
 
 <img width="1170" height="251" alt="image" src="https://github.com/user-attachments/assets/1156c525-f9f8-43d0-ba48-fec4e14882dd" />
 
-Compte d'administrador (Root): Especificació del compte amb privilegis (cn=admin,dc=saul,dc=cat) per gestionar canvis de contrasenyes des del client.
+Especificem el compte amb privilegis (cn=admin,dc=saul,dc=cat) per gestionar canvis de contrasenyes des del client:
 
 <img width="1170" height="251" alt="image" src="https://github.com/user-attachments/assets/00509867-194a-4376-b9dd-e2211ebd82e3" />
 
-Contrasenya de Root: Introducció de la credencial de l'administrador que s'emmagatzemarà de forma segura al fitxer /etc/ldap.secret.
+Introduim la contrasenya del admin:
 
 <img width="1170" height="251" alt="image" src="https://github.com/user-attachments/assets/df3206d1-c7b7-4c6d-833b-7b0134ac4f63" />
 
-Usuari de la base de dades: Definició del compte d'usuari (en aquest cas l'admin) que s'utilitzarà per connectar-se al directori.
+Definim el compte d'usuari (en aquest cas l'admin) que s'utilitzarà per connectar-se al directori:
 
 <img width="1170" height="251" alt="image" src="https://github.com/user-attachments/assets/8e358e0f-38be-4ec4-b60b-c2c88f496634" />
 
-Validació final de contrasenya: Confirmació de la contrasenya del compte d'usuari per finalitzar la configuració de l'autenticació LDAP.
+Confirmem la contrasenya del compte d'usuari per finalitzar la configuració de l'autenticació LDAP:
 
 <img width="1170" height="251" alt="image" src="https://github.com/user-attachments/assets/f58fce2d-27f3-40aa-948e-679f970a176f" />
 
-Execució del comandament dpkg-reconfigure ldap-auth-config per iniciar l'assistent de configuració de l'autenticació LDAP al terminal.
+Execució del comandament dpkg-reconfigure ldap-auth-config per iniciar l'assistent de configuració de l'autenticació LDAP al terminal:
 
 <img width="1170" height="251" alt="image" src="https://github.com/user-attachments/assets/ee22672a-8568-42cf-a664-9244c44030f1" />
 
-Confirmació final de la contrasenya del compte per realitzar el login a la base de dades.
+Confirmació final de la contrasenya del compte per realitzar el login a la base de dades:
 
 <img width="1200" height="408" alt="image" src="https://github.com/user-attachments/assets/dddfd627-c125-4363-92a7-ea99964a048d" />
 
-Edició del fitxer de serveis de xarxa per afegir ldap a les línies de passwd, group i shadow, permetent que el sistema busqui usuaris al directori.
+Edició del fitxer de serveis de xarxa per afegir ldap a les línies de passwd, group i shadow, permetent que el sistema busqui usuaris al directori:
 
 <img width="1156" height="623" alt="image" src="https://github.com/user-attachments/assets/7a9f9ff8-eda4-4c26-b1f6-dcb8183ed327" />
 
-Inclusió de la línia session optional pam_mkhomedir.so per crear automàticament el directori personal (Home) dels usuaris del domini en iniciar sessió.
+Inclusió de la línia session optional pam_mkhomedir.so per crear automàticament el directori personal (Home) dels usuaris del domini en iniciar sessió:
 
 <img width="1154" height="665" alt="image" src="https://github.com/user-attachments/assets/c79fc569-473b-4252-a7c6-4cbe74783ed3" />
 
-Configuració del mòdul PAM per gestionar el canvi de contrasenyes i la validació dels usuaris de LDAP al sistema.
+Configuració del mòdul PAM per gestionar el canvi de contrasenyes i la validació dels usuaris de LDAP al sistema:
 
 <img width="893" height="116" alt="image" src="https://github.com/user-attachments/assets/165091c0-7acd-4005-9a87-2f66aa0f9464" />
-
-Edició de la configuració de LightDM per afegir la línia greeter-show-manual-login=true, permetent escriure manualment el nom d'usuari del domini a la pantalla d'inici.
 
 
 # Servidors SAMBA i NFS
@@ -236,30 +234,42 @@ Al client despres de reiniciar accedirem a divendres per a comprovar si hola.txt
 
 <img width="782" height="243" alt="image" src="https://github.com/user-attachments/assets/d7c7f114-9a4b-428d-8048-b1540332492a" />
 
-Ara crearem la carpeta perfils i la conectarem a divendres:
+Ara crearem la carpeta perfils:
 
 <img width="1010" height="318" alt="image" src="https://github.com/user-attachments/assets/1a372182-7da8-4e7d-ba21-3aa4fee5dfa6" />
 
+ Ara conectarem la carpeta perfils a divendres:
+
 <img width="1042" height="399" alt="image" src="https://github.com/user-attachments/assets/968c03ad-7c16-42ad-a0b4-a695ffa6f35d" />
+
+Creem la carpeta perfils i li donem el permisos:
 
 <img width="565" height="181" alt="image" src="https://github.com/user-attachments/assets/e4d126fe-39f8-4ebe-9571-882e3424c817" />
 
+Tornem a fer lo mateix amb la carpeta perfils en /etc/exports:
+
 <img width="727" height="304" alt="image" src="https://github.com/user-attachments/assets/bdc18c07-ea42-411a-9b51-cc7ee877ca25" />
+
+Fem un restart y un status:
 
 <img width="727" height="304" alt="image" src="https://github.com/user-attachments/assets/fa9d180b-dbad-4f58-a669-772374b3d5c4" />
 
+Ara agarrarem un .ldif que hem utilitzat anteriorment:
+
 <img width="727" height="304" alt="image" src="https://github.com/user-attachments/assets/a6deccf7-1124-41d1-84ce-33d53d13f264" />
+
+Revisarem que hi hagi un drup ja creat, en el nostre cas per a fer la prova utilitzarem profesors:
 
 <img width="727" height="304" alt="image" src="https://github.com/user-attachments/assets/71c8c884-46a6-4d63-a5e8-5a29359672ca" />
 
+Ara editem usu.ldif per a afegirlo com a usuari del servidor per i li direm que quan es cree, en la carpeta perfils se creara la /home del usuari com a alu2:
+
 <img width="731" height="428" alt="image" src="https://github.com/user-attachments/assets/b5dd858c-9275-4950-9104-5f5754620541" />
+
+L'afegim amb ldapadd:
 
 <img width="906" height="172" alt="image" src="https://github.com/user-attachments/assets/bea1790a-ab20-4304-8dec-2ddac3c89882" />
 
+Ara al reiniciar la maquina sortira la home creada del usuari si hem iniciat sessio amb ell:
+
 <img width="898" height="137" alt="image" src="https://github.com/user-attachments/assets/e510cdb6-beaa-4492-b756-2cae3d844940" />
-
-
-## Exercici
-
-Agarrar un windows i conectarnos a la carpeta compartida:
-
