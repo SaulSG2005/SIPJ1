@@ -1,4 +1,4 @@
-# Sprint 4: 
+# Sprint 4: Monitorització, connexió remota i llicenciament
 
 ## I
 
