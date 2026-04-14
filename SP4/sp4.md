@@ -32,4 +32,8 @@ Aqui podem veure tots els tipus de logs:
 
 Prova SSH
 
+<img width="730" height="348" alt="image" src="https://github.com/user-attachments/assets/550c3597-e495-4d61-aba6-8d703e29fe9a" />
+
+<img width="1195" height="383" alt="image" src="https://github.com/user-attachments/assets/db34d37c-2f5f-4cf4-9398-c2e1ebc041a2" />
+
 Prova VNC
