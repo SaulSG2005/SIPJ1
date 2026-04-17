@@ -37,3 +37,16 @@ Prova SSH
 <img width="1195" height="383" alt="image" src="https://github.com/user-attachments/assets/db34d37c-2f5f-4cf4-9398-c2e1ebc041a2" />
 
 Prova VNC
+
+<img width="651" height="77" alt="image" src="https://github.com/user-attachments/assets/ae8a3e6f-550c-40cf-b087-2ced71a6e1cd" />
+
+<img width="499" height="361" alt="image" src="https://github.com/user-attachments/assets/678da3a8-00db-457f-878c-8cf00a32d807" />
+
+<img width="691" height="235" alt="image" src="https://github.com/user-attachments/assets/59e75e47-3a1b-4580-9b9b-dad4ed9f6bf4" />
+
+<img width="395" height="85" alt="image" src="https://github.com/user-attachments/assets/d35b5e2b-4d5d-4825-861d-a48f992d17dd" />
+
+<img width="806" height="632" alt="image" src="https://github.com/user-attachments/assets/59764b97-cb86-44d5-b127-7f076ef33cc1" />
+
+<img width="1047" height="206" alt="image" src="https://github.com/user-attachments/assets/930ddf10-4a8b-4bc2-8759-3dbf10246428" />
+
