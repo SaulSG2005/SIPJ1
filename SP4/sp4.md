@@ -30,13 +30,13 @@ Aqui podem veure tots els tipus de logs:
 <img width="727" height="225" alt="Captura de pantalla de 2026-03-13 12-00-44" src="https://github.com/user-attachments/assets/dfea88dd-66bb-4ece-85ab-e86a84175852" />
 
 
-Prova SSH
+## Prova SSH
 
 <img width="730" height="348" alt="image" src="https://github.com/user-attachments/assets/550c3597-e495-4d61-aba6-8d703e29fe9a" />
 
 <img width="1195" height="383" alt="image" src="https://github.com/user-attachments/assets/db34d37c-2f5f-4cf4-9398-c2e1ebc041a2" />
 
-Prova VNC
+## Prova VNC
 
 <img width="651" height="77" alt="image" src="https://github.com/user-attachments/assets/ae8a3e6f-550c-40cf-b087-2ced71a6e1cd" />
 
@@ -45,6 +45,11 @@ Prova VNC
 <img width="691" height="235" alt="image" src="https://github.com/user-attachments/assets/59e75e47-3a1b-4580-9b9b-dad4ed9f6bf4" />
 
 <img width="395" height="85" alt="image" src="https://github.com/user-attachments/assets/d35b5e2b-4d5d-4825-861d-a48f992d17dd" />
+
+## Windows 10
+
+<img width="1007" height="750" alt="image" src="https://github.com/user-attachments/assets/ea014fad-76d3-4061-bb1b-203ab62631c8" />
+
 
 <img width="806" height="632" alt="image" src="https://github.com/user-attachments/assets/59764b97-cb86-44d5-b127-7f076ef33cc1" />
 
