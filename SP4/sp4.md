@@ -46,12 +46,14 @@ Aqui podem veure tots els tipus de logs:
 
 <img width="395" height="85" alt="image" src="https://github.com/user-attachments/assets/d35b5e2b-4d5d-4825-861d-a48f992d17dd" />
 
+<img width="806" height="632" alt="image" src="https://github.com/user-attachments/assets/59764b97-cb86-44d5-b127-7f076ef33cc1" />
+
+<img width="1047" height="206" alt="image" src="https://github.com/user-attachments/assets/930ddf10-4a8b-4bc2-8759-3dbf10246428" />
+
 ## Windows 10
 
 <img width="1007" height="750" alt="image" src="https://github.com/user-attachments/assets/ea014fad-76d3-4061-bb1b-203ab62631c8" />
 
 
-<img width="806" height="632" alt="image" src="https://github.com/user-attachments/assets/59764b97-cb86-44d5-b127-7f076ef33cc1" />
 
-<img width="1047" height="206" alt="image" src="https://github.com/user-attachments/assets/930ddf10-4a8b-4bc2-8759-3dbf10246428" />
 
