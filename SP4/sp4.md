@@ -38,17 +38,22 @@ Aqui podem veure tots els tipus de logs:
 
 ## Prova VNC
 
-<img width="651" height="77" alt="image" src="https://github.com/user-attachments/assets/ae8a3e6f-550c-40cf-b087-2ced71a6e1cd" />
+Client
 
-<img width="499" height="361" alt="image" src="https://github.com/user-attachments/assets/678da3a8-00db-457f-878c-8cf00a32d807" />
+<img width="1276" height="794" alt="image" src="https://github.com/user-attachments/assets/2d76df58-714e-400e-94e7-c974f5207465" />
 
-<img width="691" height="235" alt="image" src="https://github.com/user-attachments/assets/59e75e47-3a1b-4580-9b9b-dad4ed9f6bf4" />
+Servidor
 
-<img width="395" height="85" alt="image" src="https://github.com/user-attachments/assets/d35b5e2b-4d5d-4825-861d-a48f992d17dd" />
+<img width="1276" height="794" alt="image" src="https://github.com/user-attachments/assets/50dbdf84-8afe-4998-bd1c-97516227f1c6" />
 
-<img width="806" height="632" alt="image" src="https://github.com/user-attachments/assets/59764b97-cb86-44d5-b127-7f076ef33cc1" />
+Com conectar:
 
-<img width="1047" height="206" alt="image" src="https://github.com/user-attachments/assets/930ddf10-4a8b-4bc2-8759-3dbf10246428" />
+<img width="1276" height="794" alt="image" src="https://github.com/user-attachments/assets/1c18568c-2585-48ca-bf69-aca0e22648e9" />
+
+<img width="1276" height="794" alt="image" src="https://github.com/user-attachments/assets/86661461-ce76-48df-8423-a9447af360cc" />
+
+<img width="1276" height="794" alt="image" src="https://github.com/user-attachments/assets/bca1cafc-9cd2-40f4-a941-fe8704bed034" />
+
 
 ## Windows 10
 
