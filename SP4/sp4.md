@@ -55,10 +55,6 @@ Com conectar:
 <img width="1276" height="794" alt="image" src="https://github.com/user-attachments/assets/bca1cafc-9cd2-40f4-a941-fe8704bed034" />
 
 
-## Windows 10
-
-<img width="1007" height="750" alt="image" src="https://github.com/user-attachments/assets/ea014fad-76d3-4061-bb1b-203ab62631c8" />
-
 
 
 
