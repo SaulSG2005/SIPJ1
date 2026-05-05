@@ -20,7 +20,7 @@ Pas 4: Instal·lar el sistema (idioma, usuari, contrasenya).
 
 Pas 5: Comprovar que arrenca correctament. 
 
-
+<img width="1035" height="781" alt="image" src="https://github.com/user-attachments/assets/c65413e8-9df3-4ce5-964f-c2e47e6bb01a" />
 
 ## Fase 2 - Punts de restauració
 
