@@ -48,7 +48,11 @@ Fase 3 – Script de còpia i automatització
 
 Pas 10. Afegir tercer disc virtual, formatar-lo en NTFS com a Backups
 
+<img width="1020" height="724" alt="image" src="https://github.com/user-attachments/assets/98ab0fa5-470a-4ca8-8456-9627da43e213" />
+
 Pas 11. Crear carpeta CòpiesUsuaris dins Backups
+
+<img width="1020" height="724" alt="image" src="https://github.com/user-attachments/assets/161f8b2d-5027-469d-a4e7-eb2cba797a3f" />
 
 Pas 12. Crear un script .bat que copiï C:\Users\%USERNAME% a
 
