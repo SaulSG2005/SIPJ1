@@ -2,25 +2,46 @@ Fase 1 – Preparació del sistema
 
 Pas 1. Afegir un nou disc virtual a la màquina virtual
 
+<img width="913" height="648" alt="image" src="https://github.com/user-attachments/assets/d1a33f39-8892-4ce5-b8fa-49281e768161" />
+
 Pas 2. Iniciar Windows i obrir Gestió de discs
+
+<img width="1020" height="724" alt="image" src="https://github.com/user-attachments/assets/aedde762-aa66-49f8-8b21-0edd62006929" />
 
 Pas 3. Inicialitzar el disc, crear dues particions: una anomenada Dades i una en FAT32
 anomenada Portable
 
+<img width="1020" height="724" alt="image" src="https://github.com/user-attachments/assets/868e3f13-4f20-4200-9034-d882446f92de" />
+
+<img width="1020" height="724" alt="image" src="https://github.com/user-attachments/assets/35c9dfbb-336d-4733-9bfb-fe483e85a9ea" />
+
 Pas 4. Assignar lletres i comprovar amb diskpart la configuració
 
+<img width="1020" height="724" alt="image" src="https://github.com/user-attachments/assets/4ed6eb2c-43b9-4cc3-9d49-51c9679a1bed" />
 
 Fase 2 – Quotes i usuaris
 
 Pas 5. Activar quotes de disc a la partició Dades (NTFS)
 
+<img width="1020" height="724" alt="image" src="https://github.com/user-attachments/assets/7aa8c344-e08c-48bb-95d6-f86581fc4907" />
+
 Pas 6. Establir límit de 300 MB per usuari, amb notificació d’advertència
+
+<img width="1020" height="724" alt="image" src="https://github.com/user-attachments/assets/82d21fd1-8784-4bc8-9234-bf3e906fa553" />
 
 Pas 7. Crear dos usuaris locals: alumne1 i alumne2
 
+<img width="1020" height="724" alt="image" src="https://github.com/user-attachments/assets/2574335f-dd9d-4d40-ae50-7eacd827bab2" />
+
 Pas 8. Afegir-los a un grup nou anomenat Limitats
 
+<img width="1020" height="724" alt="image" src="https://github.com/user-attachments/assets/13f9e305-cc57-4010-8b63-13235afe9aed" />
+
+<img width="1020" height="724" alt="image" src="https://github.com/user-attachments/assets/bbac0e02-644a-404c-8f89-e205ca876794" />
+
 Pas 9. Provar la còpia de fitxers dins Dades per veure com actuen les quotes (superar límit)
+
+<img width="1020" height="724" alt="image" src="https://github.com/user-attachments/assets/ea99e3f9-fafa-4f95-aed3-5a35fba06674" />
 
 
 Fase 3 – Script de còpia i automatització
