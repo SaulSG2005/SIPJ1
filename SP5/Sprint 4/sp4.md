@@ -1,39 +1,69 @@
-Exercici 1. Monitorització bàsica de
-Windows Server
-Objectiu
-Monitoritzar l’estat del servidor utilitzant eines integrades de Windows Server.
-Pas a pas
+# Exercici 1. Monitorització bàsica de
+
 1. Obrir el Monitor de recursos
+
 Al servidor, obre:
+
 Administrador de tasques → Rendiment → Obre el Monitor de recursos
+
+<img width="1024" height="728" alt="image" src="https://github.com/user-attachments/assets/4dcea1cd-8a5f-4b6c-b229-04889c68a303" />
+
 2. Revisar l’ús de CPU
+
 Comprova:
+
 ● processos que consumeixen més CPU
 ● percentatge total d’ús
-Fes una captura.
+
+<img width="788" height="329" alt="image" src="https://github.com/user-attachments/assets/1fbebbbd-f011-44be-9fdd-326938c2c1c0" />
+
 3. Revisar la memòria RAM
+
 Accedeix a la pestanya “Memòria”.
+
 Comprova:
+
 ● memòria utilitzada
 ● memòria lliure
-Fes una captura.
+
+<img width="784" height="200" alt="image" src="https://github.com/user-attachments/assets/352f5a87-2391-4a09-96a8-b531e7e8b457" />
+
 4. Revisar el disc
+
 Accedeix a “Disc”.
+
 Comprova:
+
 ● processos amb més lectura/escriptura
 ● activitat del disc
+
+<img width="784" height="450" alt="image" src="https://github.com/user-attachments/assets/e684635a-48be-4da4-a120-e464d2c540e2" />
+
 5. Revisar la xarxa
+
 Accedeix a “Xarxa”.
+
 Comprova:
+
 ● programes que utilitzen la xarxa
 ● velocitat d’enviament i recepció
+
+<img width="784" height="450" alt="image" src="https://github.com/user-attachments/assets/89371f86-b386-4eef-8b84-3361b3993fa0" />
+
 6. Revisar els esdeveniments del sistema
+
 Obre:
+
 Administrador del servidor → Eines → Visor d’esdeveniments
+
 Consulta:
+
 ● Errors del sistema
 ● Advertiments
 ● Errors d’aplicació
+
+<img width="833" height="529" alt="image" src="https://github.com/user-attachments/assets/b7ac3315-7996-43ea-abf3-431ae6653dcc" />
+
 Exercici 2. Connexió remota a Windows
 Server
 Objectiu
